@@ -17,6 +17,13 @@
         {
             "matchPackageSource": ["maven"],
             "registryUrls": ["https://codeartifact-auth-proxy.stonal.io/maven/avatar/", "https://repo.maven.apache.org/maven2/"]
+        },
+        {
+            "matchPackagePatterns": [
+                "^com\\.stonal\\\\..*$",
+                "^com\\.foncierenumerique\\..*$"
+            ],
+            "prPriority": "5"
         }
     ]
 }
