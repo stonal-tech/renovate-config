@@ -18,8 +18,5 @@
             "https://codeartifact-auth-proxy.stonal.io/pypi/python/simple/",
             "https://pypi.org/simple/"
         ]
-    },
-    "addLabels": [
-        "renovate:python"
-    ]
+    }
 }
