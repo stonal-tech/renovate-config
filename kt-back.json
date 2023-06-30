@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>stonal-tech/renovate-config//global",
-    "github>stonal-tech/renovate-config//java-mvn"
+    "github>stonal-tech/renovate-config//java-back"
   ]
 }

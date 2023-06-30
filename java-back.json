@@ -1,0 +1,31 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>stonal-tech/renovate-config//global",
+    "github>stonal-tech/renovate-config//java-mvn"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+          "^com\\.stonal\\\\..*$",
+          "^com\\.foncierenumerique\\..*$"
+      ],
+      "prPriority": "5"
+    },
+    {
+        "matchUpdateTypes": ["patch"],
+        "matchCurrentVersion": "!/^0/",
+        "automerge": true,
+        "addLabels": ["automerge"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchPackagePatterns": [
+          "^com\\.stonal\\\\..*$",
+          "^com\\.foncierenumerique\\..*$"
+      ],
+      "automerge": true,
+      "addLabels": ["automerge"]
+    }
+  ]
+}
