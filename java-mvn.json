@@ -12,7 +12,7 @@
     ],
     "packageRules": [
         {
-            "matchPackageSource": ["maven"],
+            "matchDatasources": ["maven"],
             "registryUrls": ["https://codeartifact-auth-proxy.stonal.io/maven/avatar/", "https://repo.maven.apache.org/maven2/"]
         }
     ]
