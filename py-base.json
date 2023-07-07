@@ -18,5 +18,12 @@
             "https://codeartifact-auth-proxy.stonal.io/pypi/python/simple/",
             "https://pypi.org/simple/"
         ]
-    }
+    },
+    "packageRules": [
+        {
+            "matchUpdateTypes": ["patch"],
+            "automerge": true,
+            "addLabels": ["automerge-noupdate"]
+        }
+    ]
 }
