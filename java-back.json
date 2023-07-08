@@ -7,25 +7,25 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-          "^com\\.stonal\\\\..*$",
+          "^com\\.stonal\\..*$",
           "^com\\.foncierenumerique\\..*$"
       ],
-      "prPriority": "5"
+      "prPriority": 5
     },
     {
         "matchUpdateTypes": ["patch"],
         "matchCurrentVersion": "!/^0/",
         "automerge": true,
-        "addLabels": ["automerge-noupdate"]
+        "addLabels": ["automerge-noupdate", "autoapprove"]
     },
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackagePatterns": [
-          "^com\\.stonal\\\\..*$",
+          "^com\\.stonal\\..*$",
           "^com\\.foncierenumerique\\..*$"
       ],
       "automerge": true,
-      "addLabels": ["automerge"]
+      "addLabels": ["automerge-noupdate", "autoapprove"]
     }
   ]
 }

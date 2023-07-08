@@ -21,9 +21,17 @@
     },
     "packageRules": [
         {
+            "matchDatasources": ["pypi"],
             "matchUpdateTypes": ["patch"],
             "automerge": true,
-            "addLabels": ["automerge-noupdate"]
+            "addLabels": ["automerge-noupdate", "autoapprove"]
+        },
+        {
+            "matchDatasources": ["pypi"],
+            "matchSourceUrlPrefixes": ["https://github.com/stonal-tech/"],
+            "description": "Not sure it works",
+            "prPriority": 5,
+            "prBodyNotes": "Internal library !"
         }
     ]
 }
