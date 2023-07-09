@@ -14,7 +14,7 @@
         "automerge-noupdate",
         "autoapprove"
       ],
-      "prPriority": 1
+      "prPriority": 2
     },
     {
       "matchPackagePatterns": [

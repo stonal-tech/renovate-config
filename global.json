@@ -22,5 +22,19 @@
     "labels": [
         "dependencies",
         "renovate"
+    ],
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "patch"
+            ],
+            "prPriority": 2
+        },
+        {
+            "matchUpdateTypes": [
+                "minor"
+            ],
+            "prPriority": 1
+        }
     ]
 }

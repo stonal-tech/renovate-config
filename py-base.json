@@ -1,5 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "https://www.notion.so/Renovate-f455c421fc084ab38bf3145d243f7833",
     "extends": [
         "github>stonal-tech/renovate-config//global"
     ],
@@ -25,7 +26,7 @@
             "matchUpdateTypes": ["patch"],
             "automerge": true,
             "addLabels": ["automerge-noupdate", "autoapprove"],
-            "prPriority": 1
+            "prPriority": 2
         },
         {
             "matchDatasources": ["pypi"],
