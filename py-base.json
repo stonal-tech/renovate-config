@@ -24,7 +24,8 @@
             "matchDatasources": ["pypi"],
             "matchUpdateTypes": ["patch"],
             "automerge": true,
-            "addLabels": ["automerge-noupdate", "autoapprove"]
+            "addLabels": ["automerge-noupdate", "autoapprove"],
+            "prPriority": 1
         },
         {
             "matchDatasources": ["pypi"],

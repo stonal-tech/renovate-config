@@ -6,26 +6,37 @@
   ],
   "packageRules": [
     {
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "automerge-noupdate",
+        "autoapprove"
+      ],
+      "prPriority": 1
+    },
+    {
       "matchPackagePatterns": [
-          "^com\\.stonal\\..*$",
-          "^com\\.foncierenumerique\\..*$"
+        "^com\\.stonal\\..*$",
+        "^com\\.foncierenumerique\\..*$"
       ],
       "prPriority": 5
     },
     {
-        "matchUpdateTypes": ["patch"],
-        "matchCurrentVersion": "!/^0/",
-        "automerge": true,
-        "addLabels": ["automerge-noupdate", "autoapprove"]
-    },
-    {
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "matchPackagePatterns": [
-          "^com\\.stonal\\..*$",
-          "^com\\.foncierenumerique\\..*$"
+        "^com\\.stonal\\..*$",
+        "^com\\.foncierenumerique\\..*$"
       ],
       "automerge": true,
-      "addLabels": ["automerge-noupdate", "autoapprove"]
+      "addLabels": [
+        "automerge-noupdate",
+        "autoapprove"
+      ]
     }
   ]
 }
