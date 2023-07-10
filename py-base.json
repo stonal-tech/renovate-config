@@ -23,10 +23,9 @@
     "packageRules": [
         {
             "matchDatasources": ["pypi"],
-            "matchUpdateTypes": ["patch"],
+            "matchUpdateTypes": ["patch", "minor"],
             "automerge": true,
-            "addLabels": ["automerge-noupdate", "autoapprove"],
-            "prPriority": 2
+            "addLabels": ["automerge-noupdate", "autoapprove"]
         },
         {
             "matchDatasources": ["pypi"],
