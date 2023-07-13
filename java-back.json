@@ -37,6 +37,21 @@
         "automerge-noupdate",
         "autoapprove"
       ]
+    },
+    {
+      "description": "Guava is always approved",
+      "matchUpdateTypes": [
+        "major",
+        "minor"
+      ],
+      "matchPackagePatterns": [
+        "com.google.guava:guava"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "automerge-noupdate",
+        "autoapprove"
+      ]
     }
   ]
 }
