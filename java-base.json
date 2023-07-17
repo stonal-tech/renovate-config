@@ -1,0 +1,57 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>stonal-tech/renovate-config//global",
+    "github>stonal-tech/renovate-config//java-mvn"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "automerge-noupdate",
+        "autoapprove"
+      ],
+      "prPriority": 2
+    },
+    {
+      "matchPackagePatterns": [
+        "^com\\.stonal\\..*$",
+        "^com\\.foncierenumerique\\..*$"
+      ],
+      "prPriority": 5
+    },
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchPackagePatterns": [
+        "^com\\.stonal\\..*$",
+        "^com\\.foncierenumerique\\..*$"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "automerge-noupdate",
+        "autoapprove"
+      ]
+    },
+    {
+      "description": "Guava is always approved",
+      "matchUpdateTypes": [
+        "major",
+        "minor"
+      ],
+      "matchPackagePatterns": [
+        "com.google.guava:guava"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "automerge-noupdate",
+        "autoapprove"
+      ]
+    }
+  ]
+}
