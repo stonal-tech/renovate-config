@@ -18,8 +18,8 @@
     },
     {
       "matchPackagePatterns": [
-        "^com\\.stonal\\..*$",
-        "^com\\.foncierenumerique\\..*$"
+        "^com\\.stonal.*$",
+        "^com\\.(la)?foncierenumerique.*$"
       ],
       "prPriority": 5
     },
@@ -29,8 +29,8 @@
         "patch"
       ],
       "matchPackagePatterns": [
-        "^com\\.stonal\\..*$",
-        "^com\\.foncierenumerique\\..*$"
+        "^com\\.stonal.*$",
+        "^com\\.(la)?foncierenumerique.*$"
       ],
       "automerge": true,
       "addLabels": [
