@@ -1,0 +1,20 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "regex": {
+        "enabled": true
+    },
+    "regexManagers": [
+        {
+            "description": "https://github.com/renovatebot/renovate/issues/7751",
+            "fileMatch": ["Jenkinsfile"],
+            "matchStrings": ["@Library\\('(?<depName>jenkins-lib)@(?<currentValue>v?[-_\\d\\.]+)'\\)"],
+            "datasourceTemplate": "github-releases"
+        }
+    ],
+    "packageRules": [
+        {
+            "datasources": ["github-releases"],
+            "registryUrls": ["https://github.com/stonal-tech/jenkins-lib"]
+        }
+    ]
+}
