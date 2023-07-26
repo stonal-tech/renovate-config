@@ -10,11 +10,5 @@
             "matchStrings": ["@Library\\(['\"](?<depName>[^'\"@]+)@(?<currentValue>v?[^'\"]+)['\"]\\)"],
             "datasourceTemplate": "github-tags"
         }
-    ],
-    "packageRules": [
-        {
-            "datasources": ["github-tags"],
-            "registryUrls": ["https://github.com/stonal-tech/jenkins-lib"]
-        }
     ]
 }
