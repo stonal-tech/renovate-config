@@ -14,7 +14,7 @@
     "packageRules": [
         {
             "datasources": ["github-tags"],
-            "registryUrls": ["github.com:stonal-tech/jenkins-lib"]
+            "registryUrls": ["https://github.com/stonal-tech/jenkins-lib"]
         }
     ]
 }
