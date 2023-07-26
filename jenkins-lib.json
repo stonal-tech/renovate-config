@@ -8,12 +8,12 @@
             "description": "https://github.com/renovatebot/renovate/issues/7751",
             "fileMatch": ["Jenkinsfile"],
             "matchStrings": ["@Library\\(['\"](?<depName>[^'\"@]+)@(?<currentValue>v?[^'\"]+)['\"]\\)"],
-            "datasourceTemplate": "github-releases"
+            "datasourceTemplate": "github-tags"
         }
     ],
     "packageRules": [
         {
-            "datasources": ["github-releases"],
+            "datasources": ["github-tags"],
             "registryUrls": ["https://github.com/stonal-tech/jenkins-lib"]
         }
     ]
