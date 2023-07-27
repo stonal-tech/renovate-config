@@ -52,6 +52,16 @@
         "automerge-noupdate",
         "autoapprove"
       ]
+    },
+    {
+      "description": "Avro deps are broken",
+      "matchPackagePatterns": [
+        "io.confluent:kafka-avro-serializer"
+      ],
+      "automerge": false,
+      "labels": [
+        "bad-semver"
+      ]
     }
   ]
 }
