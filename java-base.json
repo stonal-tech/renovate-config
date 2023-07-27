@@ -6,6 +6,9 @@
   ],
   "packageRules": [
     {
+      "matchManagers": [
+        "maven"
+      ],
       "matchUpdateTypes": [
         "patch"
       ],
@@ -17,6 +20,9 @@
       "prPriority": 2
     },
     {
+      "matchManagers": [
+        "maven"
+      ],
       "matchPackagePatterns": [
         "^com\\.stonal.*$",
         "^com\\.(la)?foncierenumerique.*$"
@@ -24,6 +30,9 @@
       "prPriority": 5
     },
     {
+      "matchManagers": [
+        "maven"
+      ],
       "matchUpdateTypes": [
         "minor",
         "patch"
@@ -39,6 +48,9 @@
       ]
     },
     {
+      "matchManagers": [
+        "maven"
+      ],
       "description": "Guava is always approved",
       "matchUpdateTypes": [
         "major",
