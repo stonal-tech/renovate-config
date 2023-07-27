@@ -16,7 +16,7 @@
         {
             "fileMatch": ["Jenkinsfile"],
             "matchStrings": [
-                "@Library\\(['\"](?<depName>[^'\"@]+)['\"]\\)"
+                "@Library\\(['\"](?<depName>[^'\"@]+)(?<currentValue>[\\d]*)['\"]\\)"
             ],
             "datasourceTemplate": "github-tags",
             "depNameTemplate": "stonal-tech/{{{depName}}}"
