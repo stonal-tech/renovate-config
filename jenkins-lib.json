@@ -8,15 +8,7 @@
             "description": "https://github.com/renovatebot/renovate/issues/7751",
             "fileMatch": ["Jenkinsfile"],
             "matchStrings": [
-                "@Library\\(['\"](?<depName>[^'\"@]+)@(?<currentValue>[^'\"]+)['\"]\\)"
-            ],
-            "datasourceTemplate": "github-tags",
-            "depNameTemplate": "stonal-tech/{{{depName}}}"
-        },
-        {
-            "fileMatch": ["Jenkinsfile"],
-            "matchStrings": [
-                "@Library\\(['\"](?<depName>[^'\"@]+)(?<currentValue>[\\d]*)['\"]\\)"
+                "@Library\\(['\"](?<depName>[^'\"@]+)@(?<currentValue>[^'\"@]+)['\"]\\)"
             ],
             "datasourceTemplate": "github-tags",
             "depNameTemplate": "stonal-tech/{{{depName}}}"
