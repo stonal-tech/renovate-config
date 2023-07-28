@@ -36,6 +36,24 @@
                 "minor"
             ],
             "prPriority": 1
+        },
+        {
+            "prPriority": 20,
+            "matchManagers": [
+                "regex"
+            ],
+            "matchPackagePatterns": [
+                "stonal-tech/jenkins-lib"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "automerge": true,
+            "addLabels": [
+                "automerge-noupdate",
+                "autoapprove"
+            ]
         }
     ]
 }

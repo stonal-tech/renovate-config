@@ -12,25 +12,5 @@
             "datasourceTemplate": "github-tags",
             "depNameTemplate": "stonal-tech/{{{depName}}}"
         }
-    ],
-    "packageRules": [
-        {
-            "prPriority": 50,
-            "matchManagers": [
-                "regex"
-            ],
-            "matchPackagePatterns": [
-                "stonal-tech/jenkins-lib"
-            ],
-            "matchUpdateTypes": [
-                "minor",
-                "patch"
-            ],
-            "automerge": true,
-            "addLabels": [
-                "automerge-noupdate",
-                "autoapprove"
-            ]
-        }
     ]
 }
