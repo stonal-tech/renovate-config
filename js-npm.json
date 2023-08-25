@@ -16,8 +16,7 @@
                 "npm"
             ],
             "registryUrls": [
-                "https://codeartifact-auth-proxy.stonal.io/npm/avatar/",
-                "https://registry.npmjs.org/"
+                "https://codeartifact-auth-proxy.stonal.io/npm/avatar/"
             ]
         }
     ]
