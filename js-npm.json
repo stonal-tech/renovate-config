@@ -2,7 +2,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "hostRules": [
         {
-            "hostType": "npm",
+            "hostType": "maven",
             "matchHost": "https://codeartifact-auth-proxy.stonal.io/",
             "username": "renovate",
             "encrypted": {
@@ -13,7 +13,7 @@
     "packageRules": [
         {
             "matchDatasources": [
-                "npm"
+                "maven"
             ],
             "registryUrls": [
                 "https://codeartifact-auth-proxy.stonal.io/npm/avatar/"
