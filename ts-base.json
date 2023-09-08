@@ -3,5 +3,49 @@
     "extends": [
         "github>stonal-tech/renovate-config//global",
         "github>stonal-tech/renovate-config//js-npm"
+    ],
+    "packageRules": [
+        {
+            "matchManagers": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "patch"
+            ],
+            "automerge": true,
+            "addLabels": [
+                "automerge-noupdate",
+                "autoapprove"
+            ],
+            "prPriority": 2
+        },
+        {
+            "matchManagers": [
+                "npm"
+            ],
+            "matchPackagePatterns": [
+                "^@lfn/.*",
+                "^@stonal/.*"
+            ],
+            "prPriority": 5
+        },
+        {
+            "matchManagers": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "matchPackagePatterns": [
+                "^@lfn/.*",
+                "^@stonal/.*"
+            ],
+            "automerge": true,
+            "addLabels": [
+                "automerge-noupdate",
+                "autoapprove"
+            ]
+        }
     ]
 }
