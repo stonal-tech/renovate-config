@@ -74,6 +74,13 @@
       "labels": [
         "bad-semver"
       ]
+    },
+    {
+      "groupName": "slf4j",
+      "description": "https://teams.microsoft.com/l/message/19:f81f757045044e7790a2fe4f8e36bdaa@thread.tacv2/1694159660533?tenantId=2cfaefd8-9855-4a51-a490-80bf898a8ac0&groupId=d7f9b385-5908-4f96-b0c5-716637c0acca&parentMessageId=1694159660533&teamName=R%26D&channelName=Tech&createdTime=1694159660533&allowXTenantAccess=false",
+      "matchPackagePatterns": [
+        "^org.slf4j:.*"
+      ]
     }
   ]
 }
