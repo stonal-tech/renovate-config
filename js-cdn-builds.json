@@ -5,9 +5,10 @@
     },
     "regexManagers": [
         {
-            "fileMatch": [".*\\.html?$", ".*\\.php$"],
+            "fileMatch": ["\\.html?$", "\\.php$"],
+            "description": "CDN regex: https://regex101.com/r/bkdSYN/1",
             "matchStrings": [
-                "https://cdn.stonal.io/builds/(?<depName>[^\/]+)/(?<currentValue>[^\/])/.*"
+                "cdn\\.stonal\\.io\\/builds\\/(?<depName>[^\\/]+)\\/(?<currentValue>[^\\/]+)\\/"
             ],
             "datasourceTemplate": "github-tags",
             "depNameTemplate": "stonal-tech/{{{depName}}}"
