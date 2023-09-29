@@ -48,16 +48,34 @@
       ]
     },
     {
+      "description": "Automerging some majors",
       "matchManagers": [
         "maven"
       ],
-      "description": "Guava is always approved",
       "matchUpdateTypes": [
         "major",
         "minor"
       ],
       "matchPackagePatterns": [
-        "com.google.guava:guava"
+        "com\\.google\\.guava:.*"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "automerge-noupdate",
+        "autoapprove"
+      ]
+    },
+    {
+      "description": "Automerging some minors",
+      "matchManagers": [
+        "maven"
+      ],
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "matchPackagePatterns": [
+        "^io\\.sentry:.*",
+        "com\\.github.dasniko:testcontainers-keycloak"
       ],
       "automerge": true,
       "addLabels": [
@@ -68,7 +86,7 @@
     {
       "description": "Avro deps are broken",
       "matchPackagePatterns": [
-        "io.confluent:kafka-avro-serializer"
+        "io\\.confluent:kafka-avro-serializer"
       ],
       "automerge": false,
       "labels": [
@@ -77,9 +95,9 @@
     },
     {
       "groupName": "slf4j",
-      "description": "https://teams.microsoft.com/l/message/19:f81f757045044e7790a2fe4f8e36bdaa@thread.tacv2/1694159660533?tenantId=2cfaefd8-9855-4a51-a490-80bf898a8ac0&groupId=d7f9b385-5908-4f96-b0c5-716637c0acca&parentMessageId=1694159660533&teamName=R%26D&channelName=Tech&createdTime=1694159660533&allowXTenantAccess=false",
+      "description": "Grouping all SLF4J deps / https://teams.microsoft.com/l/message/19:f81f757045044e7790a2fe4f8e36bdaa@thread.tacv2/1694159660533?tenantId=2cfaefd8-9855-4a51-a490-80bf898a8ac0&groupId=d7f9b385-5908-4f96-b0c5-716637c0acca&parentMessageId=1694159660533&teamName=R%26D&channelName=Tech&createdTime=1694159660533&allowXTenantAccess=false",
       "matchPackagePatterns": [
-        "^org.slf4j:.*"
+        "^org\\.slf4j:.*"
       ]
     }
   ]
