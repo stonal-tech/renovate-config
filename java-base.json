@@ -91,6 +91,13 @@
       "allowedVersions": "<1.9"
     },
     {
+      "description": "Kafka/Avro: Keep old version (and drop it once kafka is removed)",
+      "matchPackagePatterns": [
+        "io\\.confluent:kafka-avro-serializer"
+      ],
+      "allowedVersions": "<=3.3.1"
+    },
+    {
       "description": "Avro deps are broken",
       "matchPackagePatterns": [
         "io\\.confluent:kafka-avro-serializer"
