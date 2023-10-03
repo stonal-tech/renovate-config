@@ -84,6 +84,13 @@
       ]
     },
     {
+      "description": "Avro: Keep old version (until kafka is removed)",
+      "matchPackagePatterns": [
+        "org\\.apache\\.avro:avro-maven-plugin"
+      ],
+      "allowedVersions": "<1.9"
+    },
+    {
       "description": "Avro deps are broken",
       "matchPackagePatterns": [
         "io\\.confluent:kafka-avro-serializer"
