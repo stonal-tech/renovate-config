@@ -5,7 +5,7 @@
     },
     "regexManagers": [
         {
-            "fileMatch": ["\\.html?$", "\\.php$", "\\.ftl$"],
+            "fileMatch": ["\\.html?$", "\\.php$", "\\.ftl$", "\\.xslt$"],
             "description": "CDN regex: https://regex101.com/r/bkdSYN/1",
             "matchStrings": [
                 "cdn\\.stonal\\.io\/builds\/(?<depName>[^\/]+)\/(?<currentValue>[^\/]+)\/"
