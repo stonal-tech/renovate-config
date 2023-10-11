@@ -57,7 +57,8 @@
         "minor"
       ],
       "matchPackagePatterns": [
-        "com\\.google\\.guava:.*"
+        "com\\.google\\.guava:.*",
+        "org\\.testcontainers:.*"
       ],
       "automerge": true,
       "addLabels": [
