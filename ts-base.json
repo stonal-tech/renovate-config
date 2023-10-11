@@ -46,6 +46,25 @@
                 "automerge-noupdate",
                 "autoapprove"
             ]
-        }
+        },
+        {
+            "description": "Automerging some majors",
+            "matchManagers": [
+              "npm"
+            ],
+            "matchUpdateTypes": [
+              "major",
+              "minor",
+              "patch"
+            ],
+            "matchPackagePatterns": [
+              "^eslint$"
+            ],
+            "automerge": true,
+            "addLabels": [
+              "automerge-noupdate",
+              "autoapprove"
+            ]
+          }
     ]
 }
