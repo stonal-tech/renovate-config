@@ -14,7 +14,6 @@
       ],
       "automerge": true,
       "addLabels": [
-        "automerge-noupdate",
         "autoapprove"
       ],
       "prPriority": 2
@@ -43,7 +42,6 @@
       ],
       "automerge": true,
       "addLabels": [
-        "automerge-noupdate",
         "autoapprove"
       ]
     },
@@ -63,7 +61,6 @@
       ],
       "automerge": true,
       "addLabels": [
-        "automerge-noupdate",
         "autoapprove"
       ]
     },
@@ -81,7 +78,6 @@
       ],
       "automerge": true,
       "addLabels": [
-        "automerge-noupdate",
         "autoapprove"
       ]
     },

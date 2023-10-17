@@ -22,14 +22,25 @@
     },
     "packageRules": [
         {
-            "matchDatasources": ["pypi"],
-            "matchUpdateTypes": ["patch", "minor"],
+            "matchDatasources": [
+                "pypi"
+            ],
+            "matchUpdateTypes": [
+                "patch",
+                "minor"
+            ],
             "automerge": true,
-            "addLabels": ["automerge-noupdate", "autoapprove"]
+            "addLabels": [
+                "autoapprove"
+            ]
         },
         {
-            "matchDatasources": ["pypi"],
-            "matchSourceUrlPrefixes": ["https://github.com/stonal-tech/"],
+            "matchDatasources": [
+                "pypi"
+            ],
+            "matchSourceUrlPrefixes": [
+                "https://github.com/stonal-tech/"
+            ],
             "description": "Not sure it works",
             "prPriority": 5,
             "prBodyNotes": "Internal library !"

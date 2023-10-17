@@ -52,7 +52,6 @@
             ],
             "automerge": true,
             "addLabels": [
-                "automerge-noupdate",
                 "autoapprove"
             ]
         }
