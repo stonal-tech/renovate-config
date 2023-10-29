@@ -3,8 +3,9 @@
     "regex": {
         "enabled": true
     },
-    "regexManagers": [
+    "customManagers": [
         {
+            "customType": "regex",
             "fileMatch": ["\\.html?$", "\\.php$", "\\.ftl$", "\\.xslt$"],
             "description": "CDN regex: https://regex101.com/r/bkdSYN/1",
             "matchStrings": [
@@ -16,7 +17,7 @@
     ],
     "packageRules": [
         {
-            "matchDatasources": [
+            "matchManagers": [
                 "regex"
             ],
             "matchPackagePatterns": [

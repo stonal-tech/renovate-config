@@ -76,7 +76,12 @@
       "matchPackagePatterns": [
         "^io\\.sentry:",
         "^com\\.github.dasniko:testcontainers-keycloak$",
-        "^commons-io:"
+        "^commons-io:",
+        "^org\\.apache\\.commons:",
+        "^org\\.jetbrains\\.kotlin:",
+        "^io\\.mockk:",
+        "^org\\.springframework\\.cloud:",
+        "^org.owasp:"
       ],
       "automerge": true,
       "addLabels": [

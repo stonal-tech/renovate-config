@@ -18,6 +18,16 @@
             "registryUrls": [
                 "https://codeartifact-auth-proxy.stonal.io/npm/avatar/"
             ]
+        },
+        {
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchPackagePatterns": [
+                "^@types/jasmine",
+                "^jasmine"
+            ],
+            "groupName": "jasmine"
         }
     ]
 }
