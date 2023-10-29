@@ -70,11 +70,13 @@
         "maven"
       ],
       "matchUpdateTypes": [
-        "minor"
+        "minor",
+        "patch"
       ],
       "matchPackagePatterns": [
-        "^io\\.sentry:.*",
-        "com\\.github.dasniko:testcontainers-keycloak"
+        "^io\\.sentry:",
+        "^com\\.github.dasniko:testcontainers-keycloak$",
+        "^commons-io:"
       ],
       "automerge": true,
       "addLabels": [
