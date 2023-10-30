@@ -81,7 +81,8 @@
         "^org\\.jetbrains\\.kotlin:",
         "^io\\.mockk:",
         "^org\\.springframework\\.cloud:",
-        "^org.owasp:"
+        "^org\\.owasp:",
+        "^org\\.liquibase:"
       ],
       "automerge": true,
       "addLabels": [
