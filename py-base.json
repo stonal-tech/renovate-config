@@ -14,13 +14,23 @@
             }
         }
     ],
-    "python": {
+    "python__": {
         "registryUrls": [
             "https://codeartifact-auth-proxy.stonal.io/pypi/python/simple/",
             "https://pypi.org/simple/"
         ]
     },
     "packageRules": [
+        {
+            "description": "https://github.com/renovatebot/renovate/pull/16865",
+            "matchDatasources": [
+                "python"
+            ],
+            "registryUrls": [
+                "https://codeartifact-auth-proxy.stonal.io/pypi/python/simple/",
+                "https://pypi.org/simple/"
+            ]
+        },
         {
             "matchDatasources": [
                 "pypi"
