@@ -124,7 +124,7 @@
       "groupName": "springframework",
       "description": "Grouping all springframework deps",
       "matchPackagePatterns": [
-        "^org\\.springframework.*"
+        "^org\\.springframework\\..*"
       ]
     }
   ]
