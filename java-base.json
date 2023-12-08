@@ -119,6 +119,13 @@
       "matchPackagePatterns": [
         "^org\\.slf4j:.*"
       ]
+    },
+    {
+      "groupName": "springframework",
+      "description": "Grouping all springframework deps",
+      "matchPackagePatterns": [
+        "^org\\.springframework.*"
+      ]
     }
   ]
 }
