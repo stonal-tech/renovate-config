@@ -82,7 +82,8 @@
         "^io\\.mockk:",
         "^org\\.springframework\\.cloud:",
         "^org\\.owasp:",
-        "^org\\.liquibase:"
+        "^org\\.liquibase:",
+        "^net.lbruun.springboot:preliquibase-spring-boot-starter$"
       ],
       "automerge": true,
       "addLabels": [
