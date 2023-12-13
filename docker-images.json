@@ -29,6 +29,7 @@
                 "patch"
             ],
             "matchPackageNames": [
+                "^pypa/pip$",
                 "^python-poetry/poetry$",
                 "^aws/aws-cli$",
                 "^mikefarah/yq$",
