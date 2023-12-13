@@ -16,7 +16,7 @@
             ]
         },
         {
-            "description": "Not sure it works 🤔🫰",
+            "description": "This doesn't work 🙁",
             "matchManagers": [
                 "regex"
             ],
