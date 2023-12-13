@@ -34,7 +34,8 @@
                 "^mikefarah/yq$",
                 "^codacy/helm-ssm$",
                 "^eksctl-io/eksctl$",
-                "^helm/helm$"
+                "^helm/helm$",
+                "^awslabs/amazon-ecr-credential-helper$"
             ],
             "automerge": "true",
             "addLabels": [
