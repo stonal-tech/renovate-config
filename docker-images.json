@@ -15,5 +15,17 @@
                 "autoapprove"
             ]
         }
+    ],  "regex": {
+        "enabled": true
+    },
+        "regexManagers": [
+            {
+                "description": "https://regex101.com/r/Bf1hmQ/1 and https://regex101.com/r/SjTpfT/1",
+                "fileMatch": [ "Dockerfile" ],
+                "matchStrings": [
+                    "#.*https:\\/\\/github\\.com\/(?<depName>[^\\/]+\\/[^\\/]+)\\/(?<sourceType>(releases|tags)+).*\n(?:ENV|ARG)\\s.*_VERSION[\\s|=](?<currentValue>.*)"
+                ],
+                "datasourceTemplate": "github-{{{sourceType}}}"
+            }
     ]
 }
