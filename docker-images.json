@@ -9,6 +9,10 @@
             "matchUpdateTypes": [
                 "minor",
                 "patch"
+            ],
+            "automerge": true,
+            "addLabels": [
+                "autoapprove"
             ]
         }
     ]
