@@ -57,7 +57,8 @@
       "matchPackagePatterns": [
         "^com\\.google\\.guava:",
         "^org\\.testcontainers:",
-        "^org\\.mock-server:"
+        "^org\\.mock-server:",
+        "^org\\.mockito:"
       ],
       "automerge": true,
       "addLabels": [
@@ -74,16 +75,27 @@
         "patch"
       ],
       "matchPackagePatterns": [
+        "^ch\\.qos\\.logback:",
         "^com\\.github.dasniko:testcontainers-keycloak$",
+        "^com\\.google\\.code\\.gson:",
+        "^com\\.tngtech\\.jgiven:",
+        "^commons-codec:",
         "^commons-io:",
         "^io\\.mockk:",
         "^io\\.sentry:",
         "^net\\.lbruun•\\.springboot:preliquibase-spring-boot-starter$",
+        "^net\\.sourceforge\\.htmlunit:",
         "^org\\.apache\\.commons:",
+        "^org\\.apache\\.cxf:",
         "^org\\.apache.maven.plugins:",
+        "^org\\.apache\\.xmlgraphics:",
         "^org\\.jetbrains\\.kotlin:",
+        "^org\\.junit\\.jupiter:",
+        "^org\\.jsoup:",
         "^org\\.liquibase:",
         "^org\\.owasp:",
+        "^org\\.slf4j:",
+        "^org\\.springframework\\.boot:",
         "^org\\.springframework\\.cloud:"
       ],
       "automerge": true,
