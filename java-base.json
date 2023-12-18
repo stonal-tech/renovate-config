@@ -80,7 +80,7 @@
         "^io\\.sentry:",
         "^net\\.lbruun•\\.springboot:preliquibase-spring-boot-starter$",
         "^org\\.apache\\.commons:",
-        "^org\\.apache.maven.plugins:maven-compiler-plugin$",
+        "^org\\.apache.maven.plugins:",
         "^org\\.jetbrains\\.kotlin:",
         "^org\\.liquibase:",
         "^org\\.owasp:",
