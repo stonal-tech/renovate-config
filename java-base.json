@@ -74,16 +74,17 @@
         "patch"
       ],
       "matchPackagePatterns": [
-        "^io\\.sentry:",
         "^com\\.github.dasniko:testcontainers-keycloak$",
         "^commons-io:",
-        "^org\\.apache\\.commons:",
-        "^org\\.jetbrains\\.kotlin:",
         "^io\\.mockk:",
-        "^org\\.springframework\\.cloud:",
-        "^org\\.owasp:",
+        "^io\\.sentry:",
+        "^net\\.lbruun•\\.springboot:preliquibase-spring-boot-starter$",
+        "^org\\.apache\\.commons:",
+        "^org\\.apache.maven.plugins:maven-compiler-plugin$",
+        "^org\\.jetbrains\\.kotlin:",
         "^org\\.liquibase:",
-        "^net.lbruun.springboot:preliquibase-spring-boot-starter$"
+        "^org\\.owasp:",
+        "^org\\.springframework\\.cloud:"
       ],
       "automerge": true,
       "addLabels": [
