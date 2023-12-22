@@ -5,7 +5,8 @@
         "config:recommended",
         ":semanticCommits",
         "github>stonal-tech/renovate-config//jenkins-lib",
-        "github>stonal-tech/renovate-config//docker-images"
+        "github>stonal-tech/renovate-config//docker-images",
+        "github>stonal-tech/renovate-config//github-actions"
     ],
     "enabled": true,
     "dependencyDashboard": true,
