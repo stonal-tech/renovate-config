@@ -16,7 +16,6 @@
             ]
         },
         {
-            "description": "This doesn't work 🙁",
             "matchManagers": [
                 "regex"
             ],
