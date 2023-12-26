@@ -28,14 +28,14 @@
                 "patch"
             ],
             "matchPackagePatterns": [
-                "^pypa/pip$",
-                "^python-poetry/poetry$",
                 "^aws/aws-cli$",
-                "^mikefarah/yq$",
+                "^awslabs/amazon-ecr-credential-helper$",
                 "^codacy/helm-ssm$",
                 "^eksctl-io/eksctl$",
                 "^helm/helm$",
-                "^awslabs/amazon-ecr-credential-helper$"
+                "^mikefarah/yq$",
+                "^pypa/pip$",
+                "^python-poetry/poetry$"
             ],
             "automerge": "true",
             "addLabels": [
