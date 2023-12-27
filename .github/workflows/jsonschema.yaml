@@ -27,5 +27,5 @@ jobs:
           set -ex
           curl -s -o .schema.json https://docs.renovatebot.com/renovate-schema.json
           ajv migrate -s .schema.json -o .schema.migrated.json
-          ajv validate -s .schema.migrated.json -d "*.json"
+          ajv validate -s .schema.migrated.json -d default.json
 
