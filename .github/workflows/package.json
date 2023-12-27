@@ -1,0 +1,6 @@
+{
+    "name": "json-schema-validation",
+    "dependencies": {
+        "ajv-cli": "^5.0.0"
+    }
+}
