@@ -26,5 +26,6 @@ jobs:
           export PATH=$(pwd)/.github/workflows/node_modules/.bin:${PATH}
           set -ex
           curl -s -o .schema.json https://docs.renovatebot.com/renovate-schema.json
-          ajv validate --strict=true -s .schema.json -d "*.json"
+          ajv migrate -s .schema.json -o .schema.migrated.json
+          ajv validate --strict=true -s .schema.migrated.json -d "*.json"
 
