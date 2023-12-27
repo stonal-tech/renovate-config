@@ -2,7 +2,6 @@ name: JSON Schema Check
 
 on:
   push:
-  pull_request:
 
 jobs:
   build:
