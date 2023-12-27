@@ -17,6 +17,10 @@ jobs:
         run: |
           cd .github/workflows/
           npm install
+      - name: Installing curl
+        run: |
+          sudo apt-get update
+          sudo apt-get install curl -y
       - name: Checking schema
         run: |
           export PATH=$(pwd)/.github/workflows/node_modules/.bin:${PATH}
