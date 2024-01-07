@@ -1,0 +1,31 @@
+name: JSON Schema Check
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: stonal-ubuntu-22.04
+    steps:
+      - name: Git fetch
+        uses: actions/checkout@v4.1.1
+      - name: node-setup
+        uses: actions/setup-node@v4.0.1
+        with:
+          node-version: 20
+      - name: Installing ajv
+        run: |
+          cd .github/workflows/
+          npm install
+      - name: Installing curl
+        run: |
+          sudo apt-get update
+          sudo apt-get install curl jq -y
+      - name: Checking schema
+        run: |
+          export PATH=$(pwd)/.github/workflows/node_modules/.bin:${PATH}
+          set -ex
+          curl -s -o .schema.json https://docs.renovatebot.com/renovate-schema.json
+          ajv migrate -s .schema.json -o .schema.migrated.json
+          ajv validate -c ajv-formats -s .schema.migrated.json  -d default.json
+
