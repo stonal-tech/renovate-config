@@ -96,7 +96,8 @@
         "^org\\.owasp:",
         "^org\\.slf4j:",
         "^org\\.springframework\\.boot:",
-        "^org\\.springframework\\.cloud:"
+        "^org\\.springframework\\.cloud:",
+        "^software.amazon.awssdk:"
       ],
       "automerge": true,
       "addLabels": [
