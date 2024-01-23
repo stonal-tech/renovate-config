@@ -48,6 +48,22 @@
             "matchDatasources": [
                 "pypi"
             ],
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "matchPackageNames": [
+                "structlog"
+            ],
+            "description": "structlog follows a clunky versioning scheme, so we need to allow major updates",
+            "automerge": true,
+            "addLabels": [
+                "autoapprove"
+            ]
+        },
+        {
+            "matchDatasources": [
+                "pypi"
+            ],
             "matchSourceUrlPrefixes": [
                 "https://github.com/stonal-tech/"
             ],
