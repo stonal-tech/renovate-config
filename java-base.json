@@ -6,6 +6,7 @@
   ],
   "packageRules": [
     {
+      "description": "All patches are automatically approved and merged",
       "matchManagers": [
         "maven"
       ],
@@ -19,6 +20,7 @@
       "prPriority": 2
     },
     {
+      "description": "Stonal deps have a higher priority",
       "matchManagers": [
         "maven"
       ],
@@ -29,6 +31,7 @@
       "prPriority": 5
     },
     {
+      "description": "Auto-approving (and merging) minor and patch updates for Stonal deps",
       "matchManagers": [
         "maven"
       ],
@@ -43,6 +46,23 @@
       "automerge": true,
       "addLabels": [
         "autoapprove"
+      ]
+    },
+    {
+      "description": "Auto creating releases for patch updates of Stonal deps",
+      "matchManagers": [
+        "maven"
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "matchPackagePatterns": [
+        "^com\\.stonal.*$",
+        "^com\\.(la)?foncierenumerique.*$"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "autorelease"
       ]
     },
     {
