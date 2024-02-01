@@ -60,7 +60,6 @@
         "^com\\.stonal.*$",
         "^com\\.(la)?foncierenumerique.*$"
       ],
-      "automerge": true,
       "addLabels": [
         "autorelease"
       ]
