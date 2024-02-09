@@ -31,7 +31,7 @@
             "prPriority": 5
         },
         {
-            "description": "Automerge any minor/patch update for an internal lib",
+            "description": "Automerge any minor/patch update for any internal lib",
             "matchManagers": [
                 "npm"
             ],
