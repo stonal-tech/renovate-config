@@ -6,6 +6,7 @@
     ],
     "packageRules": [
         {
+            "description": "Automerge any patch",
             "matchManagers": [
                 "npm"
             ],
@@ -19,6 +20,7 @@
             "prPriority": 2
         },
         {
+            "description": "Internal libs have a high priority",
             "matchManagers": [
                 "npm"
             ],
@@ -29,6 +31,7 @@
             "prPriority": 5
         },
         {
+            "description": "Automerge any minor/patch update for any internal lib",
             "matchManagers": [
                 "npm"
             ],
@@ -57,6 +60,28 @@
             ],
             "matchPackagePatterns": [
               "^eslint$"
+            ],
+            "automerge": true,
+            "addLabels": [
+              "autoapprove"
+            ]
+          },
+          {
+            "description": "Automerging some minors",
+            "matchManagers": [
+              "npm"
+            ],
+            "matchUpdateTypes": [
+              "minor",
+              "patch"
+            ],
+            "matchPackagePatterns": [
+              "^vite$",
+              "^@vitejs/.*",
+              "^@tanstack/.*",
+              "^react-router(-dom)?$",
+              "^@mantime/.*",
+              "^@sentry/.*"
             ],
             "automerge": true,
             "addLabels": [
