@@ -64,6 +64,23 @@
             "matchDatasources": [
                 "pypi"
             ],
+            "matchUpdateTypes": [
+                "major",
+                "minor"
+            ],
+            "matchPackageNames": [
+                "lib-mq-aws"
+            ],
+            "description": "lib-mq-aws needs to create a new release when it's updated",
+            "addLabels": [
+                "jira-issue",
+                "autorelease"
+            ]
+        },
+        {
+            "matchDatasources": [
+                "pypi"
+            ],
             "matchSourceUrlPrefixes": [
                 "https://github.com/stonal-tech/"
             ],

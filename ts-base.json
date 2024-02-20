@@ -81,7 +81,8 @@
               "^@tanstack/.*",
               "^react-router(-dom)?$",
               "^@mantime/.*",
-              "^@sentry/.*"
+              "^@sentry/.*",
+              "^eslint-plugin-unused-imports"
             ],
             "automerge": true,
             "addLabels": [
