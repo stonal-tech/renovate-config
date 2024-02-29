@@ -64,9 +64,10 @@
             "matchDatasources": [
                 "pypi"
             ],
-            "matchUpdateTypes": [
+            "__matchUpdateTypes": [
                 "major",
-                "minor"
+                "minor",
+                "patch"
             ],
             "matchPackageNames": [
                 "lib-mq-aws"
