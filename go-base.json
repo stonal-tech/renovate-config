@@ -1,0 +1,46 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "https://www.notion.so/Renovate-f455c421fc084ab38bf3145d243f7833",
+    "extends": [
+        "github>stonal-tech/renovate-config//global"
+    ],
+    "packageRules": [
+        {
+            "matchDatasources": [
+                "go"
+            ],
+            "matchUpdateTypes": [
+                "patch",
+                "minor"
+            ],
+            "automerge": true,
+            "addLabels": [
+                "autoapprove"
+            ]
+        },
+        {
+            "matchDatasources": [
+                "go"
+            ],
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "matchPackageNames": [
+                "__to_be_defined__"
+            ],
+            "automerge": true,
+            "addLabels": [
+                "autoapprove"
+            ]
+        },
+        {
+            "matchDatasources": [
+                "go"
+            ],
+            "matchPackageNames": [
+                "^github.com/stonal-tech/.*"
+            ],
+            "prPriority": 5
+        }
+    ]
+}
