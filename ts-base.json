@@ -82,7 +82,8 @@
               "^react-router(-dom)?$",
               "^@mantime/.*",
               "^@sentry/.*",
-              "^eslint-plugin-unused-imports"
+              "^eslint-plugin-unused-imports",
+              "^i18next$"
             ],
             "automerge": true,
             "addLabels": [
