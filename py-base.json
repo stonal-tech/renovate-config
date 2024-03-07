@@ -88,6 +88,16 @@
             "description": "Not sure it works",
             "prPriority": 5,
             "prBodyNotes": "Internal library !"
+        },
+        {
+            "description": "slowing down some updates",
+            "matchDatasources": [
+                "pypi"
+            ],
+            "matchPackageNames": [
+                "boto3"
+            ],
+            "minimumReleaseAge": "3 days"
         }
     ]
 }
