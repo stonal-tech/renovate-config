@@ -39,7 +39,6 @@
                 "patch",
                 "minor"
             ],
-            "automerge": true,
             "addLabels": [
                 "autoapprove"
             ]
@@ -55,7 +54,6 @@
                 "structlog"
             ],
             "description": "structlog follows a clunky versioning scheme, so we need to allow major updates",
-            "automerge": true,
             "addLabels": [
                 "autoapprove"
             ]

@@ -13,7 +13,6 @@
       "matchUpdateTypes": [
         "patch"
       ],
-      "automerge": true,
       "addLabels": [
         "autoapprove"
       ],
@@ -43,7 +42,6 @@
         "^com\\.stonal.*$",
         "^com\\.(la)?foncierenumerique.*$"
       ],
-      "automerge": true,
       "addLabels": [
         "autoapprove"
       ]
@@ -79,7 +77,6 @@
         "^org\\.mock-server:",
         "^org\\.mockito:"
       ],
-      "automerge": true,
       "addLabels": [
         "autoapprove"
       ]
@@ -118,7 +115,6 @@
         "^org\\.springframework\\.cloud:",
         "^software.amazon.awssdk:"
       ],
-      "automerge": true,
       "addLabels": [
         "autoapprove"
       ]
@@ -142,7 +138,6 @@
       "matchPackagePatterns": [
         "io\\.confluent:kafka-avro-serializer"
       ],
-      "automerge": false,
       "labels": [
         "bad-semver"
       ]
