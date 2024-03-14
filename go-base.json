@@ -13,7 +13,6 @@
                 "patch",
                 "minor"
             ],
-            "automerge": true,
             "addLabels": [
                 "autoapprove"
             ]
@@ -28,7 +27,6 @@
             "matchPackageNames": [
                 "__to_be_defined__"
             ],
-            "automerge": true,
             "addLabels": [
                 "autoapprove"
             ]

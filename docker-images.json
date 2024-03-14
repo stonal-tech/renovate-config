@@ -10,7 +10,6 @@
                 "minor",
                 "patch"
             ],
-            "automerge": true,
             "addLabels": [
                 "autoapprove"
             ]
@@ -37,7 +36,6 @@
                 "^pypa/pip$",
                 "^python-poetry/poetry$"
             ],
-            "automerge": "true",
             "addLabels": [
                 "autoapprove"
             ]
