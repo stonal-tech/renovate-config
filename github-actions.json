@@ -19,6 +19,7 @@
     },
     "regexManagers": [
         {
+            "description": "https://regex101.com/r/ZbATUP/1",
             "fileMatch": [
                 ".github/workflows/(.*).yml"
             ],
