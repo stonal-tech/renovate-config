@@ -12,6 +12,25 @@
             "addLabels": [
                 "autoapprove"
             ]
+        },
+        {
+            "matchManagers": [
+                "regex"
+            ],
+            "matchDatasources": [
+                "github-releases",
+                "github-tags"
+            ],
+            "matchPackageNames": [
+                "golangci/golangci-lint"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "addLabels": [
+                "autoapprove"
+            ]
         }
     ],
     "regex": {
