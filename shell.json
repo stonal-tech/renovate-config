@@ -1,0 +1,17 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "regex": {
+        "enabled": true
+    },
+    "regexManagers": [
+        {
+            "fileMatch": [
+                "(.*)\\.sh"
+            ],
+            "matchStrings": [
+                "#.*https:\\/\\/github\\.com\/(?<depName>[^\\/]+\\/[^\\/]+)\\/(?<sourceType>(releases|tags)+).*\n.*_VERSION=(?<currentValue>.*)"
+            ],
+            "datasourceTemplate": "github-{{{sourceType}}}"
+        }
+    ]
+}

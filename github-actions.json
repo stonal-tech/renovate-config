@@ -13,5 +13,19 @@
                 "autoapprove"
             ]
         }
+    ],
+    "regex": {
+        "enabled": true
+    },
+    "regexManagers": [
+        {
+            "fileMatch": [
+                ".github/workflows/(.*).yml"
+            ],
+            "matchStrings": [
+                "#.*https:\\/\\/github\\.com\/(?<depName>[^\\/]+\\/[^\\/]+)\\/(?<sourceType>(releases|tags)+).*\n.*version:[\\s]*(?<currentValue>.*)"
+            ],
+            "datasourceTemplate": "github-{{{sourceType}}}"
+        }
     ]
 }
