@@ -40,6 +40,7 @@
       ],
       "matchPackagePatterns": [
         "^com\\.stonal.*$",
+        "^io\\.stonal.*$",
         "^com\\.(la)?foncierenumerique.*$"
       ],
       "addLabels": [
@@ -56,6 +57,7 @@
       ],
       "matchPackagePatterns": [
         "^com\\.stonal.*$",
+        "^io\\.stonal.*$",
         "^com\\.(la)?foncierenumerique.*$"
       ],
       "addLabels": [
