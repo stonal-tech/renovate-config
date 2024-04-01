@@ -96,6 +96,22 @@
                 "boto3"
             ],
             "minimumReleaseAge": "3 days"
+        },
+        {
+            "description": "auto-merge some pre-commit updates",
+            "matchManagers": [
+                "pre-commit"
+            ],
+            "matchPackageNames": [
+                "^astral-sh/ruff-pre-commit$"
+            ],
+            "matchUpdateTypes": [
+                "patch",
+                "minor"
+            ],
+            "addLabels": [
+                "autoapprove"
+            ]
         }
     ],
     "pre-commit": {
