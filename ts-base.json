@@ -74,6 +74,7 @@
             ],
             "matchPackagePatterns": [
               "^vite$",
+              "^express$",
               "^@vitejs/.*",
               "^@tanstack/.*",
               "^react-router(-dom)?$",
