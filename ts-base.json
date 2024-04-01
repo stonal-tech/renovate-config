@@ -73,15 +73,18 @@
               "patch"
             ],
             "matchPackagePatterns": [
-              "^vite$",
-              "^express$",
-              "^@vitejs/.*",
-              "^@tanstack/.*",
-              "^react-router(-dom)?$",
-              "^@mantime/.*",
-              "^@sentry/.*",
-              "^eslint-plugin-unused-imports",
-              "^i18next$"
+                "^@mantime/.*",
+                "^@sentry/.*",
+                "^@tanstack/.*",
+                "^@vitejs/.*",
+                "@types/.*",
+                "node",
+                "^eslint-plugin-unused-imports",
+                "^express$",
+                "^i18next$",
+                "^react-router(-dom)?$",
+                "^vite$",
+                "^winston$"
             ],
             "addLabels": [
               "autoapprove"
