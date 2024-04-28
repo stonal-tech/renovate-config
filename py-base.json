@@ -112,6 +112,24 @@
             "addLabels": [
                 "autoapprove"
             ]
+        },
+        {
+            "matchPackageNames": [
+              "python"
+            ],
+            "matchManagers": [
+              "poetry"
+            ],
+            "enabled": false
+        },
+        {
+            "description": "auto-merge all pre-commit updates",
+            "matchManagers": [
+                "pre-commit"
+            ],
+            "addLabels": [
+                "autoapprove"
+            ]
         }
     ],
     "pre-commit": {
