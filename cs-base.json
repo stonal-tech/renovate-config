@@ -16,6 +16,16 @@
             "addLabels": [
                 "autoapprove"
             ]
+        },
+        {
+            "description": "Only allow updates to Nice3point.Revit.Extensions below 2022.3.0",
+            "matchDatasources": [
+                "nuget"
+            ],
+            "matchPackageNames": [
+                "Nice3point.Revit.Extensions"
+            ],
+            "allowedVersions": "<2022.3.0"
         }
     ]
 }
