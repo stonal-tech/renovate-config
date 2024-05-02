@@ -115,10 +115,10 @@
         },
         {
             "matchPackageNames": [
-              "python"
+                "python"
             ],
             "matchManagers": [
-              "poetry"
+                "poetry"
             ],
             "enabled": false
         },
@@ -130,6 +130,18 @@
             "addLabels": [
                 "autoapprove"
             ]
+        },
+        {
+            "description": "group sentry updates",
+            "groupName": "sentry",
+            "matchPackageNames": [
+                "sentry-sdk",
+                "lib-sentry"
+            ],
+            "matchManagers": [
+                "poetry"
+            ],
+            "separateMajorMinor": false
         }
     ],
     "pre-commit": {
