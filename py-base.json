@@ -68,9 +68,10 @@
                 "patch"
             ],
             "matchPackageNames": [
-                "lib-mq-aws"
+                "lib-mq-aws",
+                "lib-ai-mq-handler-py"
             ],
-            "description": "lib-mq-aws needs to create a new release when it's updated",
+            "description": "lib-mq-aws and lib-ai-mq-handler-py need to create a new release when updated",
             "addLabels": [
                 "jira-issue",
                 "autorelease"
