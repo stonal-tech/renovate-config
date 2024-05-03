@@ -142,6 +142,18 @@
                 "poetry"
             ],
             "separateMajorMinor": false
+        },
+        {
+            "description": "group lib-mq updates",
+            "groupName": "lib-mq",
+            "matchPackageNames": [
+                "lib-mq-aws",
+                "lib-ai-mq-handler"
+            ],
+            "matchManagers": [
+                "poetry"
+            ],
+            "separateMajorMinor": false
         }
     ],
     "pre-commit": {
