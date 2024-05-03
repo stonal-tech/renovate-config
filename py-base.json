@@ -118,7 +118,8 @@
                 "python"
             ],
             "matchManagers": [
-                "poetry"
+                "poetry",
+                "dockerfile"
             ],
             "enabled": false
         },
