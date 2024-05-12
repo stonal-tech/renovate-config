@@ -29,7 +29,7 @@
             "addLabels": [
                 "autoapprove"
             ],
-            "minimumReleaseAge": "4 weeks",
+            "minimumReleaseAge": "10 days",
             "prPriority": 3
         },
         {
