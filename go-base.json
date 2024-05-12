@@ -7,7 +7,8 @@
     "packageRules": [
         {
             "matchDatasources": [
-                "go"
+                "go",
+                "golang-version"
             ],
             "matchUpdateTypes": [
                 "patch",
