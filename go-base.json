@@ -7,8 +7,7 @@
     "packageRules": [
         {
             "matchDatasources": [
-                "go",
-                "golang-version"
+                "go"
             ],
             "matchUpdateTypes": [
                 "patch",
@@ -17,6 +16,21 @@
             "addLabels": [
                 "autoapprove"
             ]
+        },
+        {
+            "description": "Upgrade golang-version to minor/patch versions",
+            "matchDatasources": [
+                "golang-version"
+            ],
+            "matchUpdateTypes": [
+                "patch",
+                "minor"
+            ],
+            "addLabels": [
+                "autoapprove"
+            ],
+            "minimumReleaseAge": "4 weeks",
+            "prPriority": 3
         },
         {
             "matchDatasources": [
