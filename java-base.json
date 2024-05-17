@@ -159,10 +159,10 @@
       ]
     },
     {
-      "description": "group keyloack updates",
-      "groupName": "lib-keyloak",
+      "description": "group keycloack updates",
+      "groupName": "lib-keycloak",
       "matchPackageNames": [
-        "^org\\.keyloak\\.:"
+        "^org\\.keycloak\\.:"
       ],
       "matchManagers": [
         "maven"
