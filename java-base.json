@@ -157,6 +157,17 @@
       "matchPackagePatterns": [
         "^org\\.springframework\\..*"
       ]
+    },
+    {
+      "description": "group keyloack updates",
+      "groupName": "lib-keyloak",
+      "matchPackageNames": [
+        "^org\\.keyloak\\.:"
+      ],
+      "matchManagers": [
+        "maven"
+      ],
+      "separateMajorMinor": false
     }
   ]
 }
