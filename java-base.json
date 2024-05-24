@@ -157,6 +157,17 @@
       "matchPackagePatterns": [
         "^org\\.springframework\\..*"
       ]
+    },
+    {
+      "description": "group keycloack updates",
+      "groupName": "lib-keycloak",
+      "matchPackageNames": [
+        "^org\\.keycloak\\.:"
+      ],
+      "matchManagers": [
+        "maven"
+      ],
+      "separateMajorMinor": false
     }
   ]
 }
