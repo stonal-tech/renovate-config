@@ -2,5 +2,19 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "github>stonal-tech/renovate-config//global"
+    ],
+    "regex": {
+        "enabled": true
+    },
+    "regexManagers": [
+        {
+            "fileMatch": [
+                "(.*)\\.yml$"
+            ],
+            "matchStrings": [
+                "#.*https:\\/\\/github\\.com\/(?<depName>[^\\/]+\\/[^\\/]+)\\/(?<sourceType>(releases|tags)+).*\n.*_(VERSION|version):[\\s]*(?<currentValue>.*)"
+            ],
+            "datasourceTemplate": "github-{{{sourceType}}}"
+        }
     ]
 }
