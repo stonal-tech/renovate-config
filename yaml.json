@@ -3,6 +3,9 @@
     "regex": {
         "enabled": true
     },
+    "extends": [
+        "github>stonal-tech/renovate-config//yaml"
+    ],
     "regexManagers": [
         {
             "fileMatch": [
