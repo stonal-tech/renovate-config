@@ -35,20 +35,5 @@
                 "autoapprove"
             ]
         }
-    ],
-    "regex": {
-        "enabled": true
-    },
-    "regexManagers": [
-        {
-            "description": "https://regex101.com/r/ZbATUP/1",
-            "fileMatch": [
-                ".github/workflows/(.*).yml"
-            ],
-            "matchStrings": [
-                "#.*https:\\/\\/github\\.com\/(?<depName>[^\\/]+\\/[^\\/]+)\\/(?<sourceType>(releases|tags)+).*\n.*version:[\\s]*(?<currentValue>.*)"
-            ],
-            "datasourceTemplate": "github-{{{sourceType}}}"
-        }
     ]
 }
