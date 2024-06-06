@@ -2,7 +2,8 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "description": "https://www.notion.so/Renovate-f455c421fc084ab38bf3145d243f7833",
     "extends": [
-        "github>stonal-tech/renovate-config//global"
+        "github>stonal-tech/renovate-config//global",
+        "github>stonal-tech/renovate-config//py-no-update"
     ],
     "hostRules": [
         {
@@ -113,16 +114,6 @@
             "addLabels": [
                 "autoapprove"
             ]
-        },
-        {
-            "matchPackageNames": [
-                "python"
-            ],
-            "matchManagers": [
-                "poetry",
-                "dockerfile"
-            ],
-            "enabled": false
         },
         {
             "description": "auto-merge all pre-commit updates",
