@@ -1,0 +1,36 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Github actions workflow",
+    "extends": [
+        "github>stonal-tech/renovate-config//action"
+    ],
+    "packageRules": [
+        {
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchPackagePatterns": [
+                "^stonal-tech/action-.*"
+            ],
+            "addLabels": [
+                "jira-issue",
+                "autorelease"
+            ]
+        },
+        {
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "matchPackagePatterns": [
+                "^stonal-tech/action-.*"
+            ],
+            "addLabels": [
+                "autoapprove"
+            ]
+        }
+    ]
+}
