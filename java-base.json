@@ -161,7 +161,7 @@
     {
       "description": "group keycloack updates",
       "groupName": "lib-keycloak",
-      "matchPackageNames": [
+      "matchDepNames": [
         "^org\\.keycloak\\.:"
       ],
       "matchManagers": [

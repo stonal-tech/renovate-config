@@ -39,7 +39,7 @@
             "matchUpdateTypes": [
                 "major"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "__to_be_defined__"
             ],
             "addLabels": [
@@ -50,7 +50,7 @@
             "matchDatasources": [
                 "go"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "^github.com/stonal-tech/.*"
             ],
             "prPriority": 5

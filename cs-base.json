@@ -22,7 +22,7 @@
             "matchDatasources": [
                 "nuget"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "Nice3point.Revit.Extensions"
             ],
             "allowedVersions": "<2022.3.0"

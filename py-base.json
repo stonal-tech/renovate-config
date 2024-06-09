@@ -51,7 +51,7 @@
             "matchUpdateTypes": [
                 "major"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "structlog"
             ],
             "description": "structlog follows a clunky versioning scheme, so we need to allow major updates",
@@ -68,7 +68,7 @@
                 "minor",
                 "patch"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "lib-mq-aws",
                 "lib-ai-mq-handler-py"
             ],
@@ -94,7 +94,7 @@
             "matchDatasources": [
                 "pypi"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "boto3"
             ],
             "minimumReleaseAge": "3 days"
@@ -104,7 +104,7 @@
             "matchManagers": [
                 "pre-commit"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "^astral-sh/ruff-pre-commit$"
             ],
             "matchUpdateTypes": [
@@ -127,7 +127,7 @@
         {
             "description": "group sentry updates",
             "groupName": "sentry",
-            "matchPackageNames": [
+            "matchDepNames": [
                 "sentry-sdk",
                 "lib-sentry"
             ],
@@ -139,7 +139,7 @@
         {
             "description": "group lib-mq updates",
             "groupName": "lib-mq",
-            "matchPackageNames": [
+            "matchDepNames": [
                 "lib-mq-aws",
                 "lib-ai-mq-handler"
             ],

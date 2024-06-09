@@ -24,7 +24,7 @@
                 "github-releases",
                 "github-tags"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "golangci/golangci-lint"
             ],
             "matchUpdateTypes": [
