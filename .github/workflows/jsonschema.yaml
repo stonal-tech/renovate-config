@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  build:
+  ci:
     runs-on: stonal-ubuntu-22.04
     steps:
       - name: Git fetch
