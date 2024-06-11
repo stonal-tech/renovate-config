@@ -13,7 +13,6 @@
                 "^stonal-tech/action-.*"
             ],
             "addLabels": [
-                "jira-issue",
                 "autorelease"
             ]
         },
