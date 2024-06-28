@@ -83,7 +83,7 @@
                 "^react-router(-dom)?$",
                 "^mantine-datatable$",
                 "^@tabler/icons-react$",
-                "^node$",
+                "^(@types/)?node$",
                 "^eslint-plugin-unused-imports$",
                 "^express$",
                 "^i18next$",
@@ -91,7 +91,8 @@
                 "^oidc-client-ts$",
                 "^react-oidc-context$",
                 "^vite$",
-                "^winston$"
+                "^winston$",
+                "^tsup$"
             ],
             "addLabels": [
               "autoapprove"
