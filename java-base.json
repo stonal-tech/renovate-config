@@ -77,7 +77,8 @@
         "^com\\.google\\.guava:",
         "^org\\.testcontainers:",
         "^org\\.mock-server:",
-        "^org\\.mockito:"
+        "^org\\.mockito:",
+        "^org\\.owasp:dependency-check-maven$"
       ],
       "addLabels": [
         "autoapprove"
