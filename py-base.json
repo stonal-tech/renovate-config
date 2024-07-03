@@ -137,6 +137,14 @@
             "separateMajorMinor": false
         },
         {
+            "decription": "group boto updates",
+            "groupName": "boto",
+            "matchDepNames": [
+                "boto3",
+                "botocore"
+            ]
+        },
+        {
             "description": "group lib-mq updates",
             "groupName": "lib-mq",
             "matchDepNames": [
