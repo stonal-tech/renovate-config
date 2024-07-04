@@ -79,6 +79,7 @@
         "^org\\.mock-server:",
         "^org\\.mockito:",
         "^org\\.apache\\.poi:",
+        "^org\\.wiremock:",
         "^org\\.owasp:dependency-check-maven$"
       ],
       "addLabels": [
