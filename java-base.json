@@ -65,29 +65,20 @@
       ]
     },
     {
-      "description": "Automerging some minors",
+      "description": "Automerging all minors and patch",
       "matchManagers": [
         "maven"
       ],
       "matchUpdateTypes": [
-        "major",
-        "minor"
-      ],
-      "matchPackagePatterns": [
-        "^com\\.google\\.guava:",
-        "^org\\.testcontainers:",
-        "^org\\.mock-server:",
-        "^org\\.mockito:",
-        "^org\\.apache\\.poi:",
-        "^org\\.wiremock:",
-        "^org\\.owasp:dependency-check-maven$"
+        "minor",
+        "patch"
       ],
       "addLabels": [
         "autoapprove"
       ]
     },
     {
-      "description": "Automerging some minors",
+      "description": "Automerging some minors (replaced by the next rule)",
       "matchManagers": [
         "maven"
       ],
@@ -96,14 +87,21 @@
         "patch"
       ],
       "matchPackagePatterns": [
+        "^com\\.google\\.guava:",
+        "^org\\.testcontainers:",
+        "^org\\.mock-server:",
+        "^org\\.mockito:",
+        "^org\\.apache\\.poi:",
+        "^org\\.wiremock:",
         "^ch\\.qos\\.logback:",
-        "^com\\.github.dasniko:testcontainers-keycloak$",
         "^com\\.google\\.code\\.gson:",
         "^com\\.tngtech\\.jgiven:",
         "^commons-codec:",
         "^commons-io:",
         "^io\\.mockk:",
         "^io\\.sentry:",
+        "^org\\.owasp:dependency-check-maven$",
+        "^com\\.github.dasniko:testcontainers-keycloak$",
         "^net\\.lbruun•\\.springboot:preliquibase-spring-boot-starter$",
         "^net\\.sourceforge\\.htmlunit:",
         "^org\\.apache\\.commons:",
