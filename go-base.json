@@ -4,6 +4,9 @@
     "extends": [
         "github>stonal-tech/renovate-config//global"
     ],
+    "postUpdateOptions": [
+        "gomodTidy"
+    ],
     "packageRules": [
         {
             "matchDatasources": [
