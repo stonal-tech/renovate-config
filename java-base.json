@@ -65,7 +65,7 @@
       ]
     },
     {
-      "description": "Automerging some majors",
+      "description": "Automerging some minors",
       "matchManagers": [
         "maven"
       ],
@@ -78,6 +78,7 @@
         "^org\\.testcontainers:",
         "^org\\.mock-server:",
         "^org\\.mockito:",
+        "^org\\.apache\\.poi:",
         "^org\\.owasp:dependency-check-maven$"
       ],
       "addLabels": [
