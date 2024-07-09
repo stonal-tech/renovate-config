@@ -10,7 +10,7 @@ jobs:
       - name: Git fetch
         uses: actions/checkout@v4.1.7
       - name: node-setup
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.0.3
         with:
           node-version: 20
       - name: Installing ajv
