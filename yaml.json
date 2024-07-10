@@ -9,7 +9,7 @@
                 "(.*)\\.yml$"
             ],
             "matchStrings": [
-                "#.*https:\\/\\/github\\.com\/(?<depName>[^\\/]+\\/[^\\/]+)\\/(?<sourceType>(releases|tags)+).*\n.*[_|\\s](VERSION|version):[\\s]*(?<currentValue>.*)"
+                "#.*https:\\/\\/github\\.com\/(?<depName>[^\\/]+\\/[^\\/]+)\\/(?<sourceType>(releases|tags)+).*\n.*[_|-|\\s](VERSION|version|Version):[\\s]*(?<currentValue>.*)"
             ],
             "datasourceTemplate": "github-{{{sourceType}}}"
         }
