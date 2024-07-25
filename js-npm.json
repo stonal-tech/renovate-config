@@ -3,7 +3,7 @@
     "hostRules": [
         {
             "hostType": "npm",
-            "matchHost": "https://codeartifact-auth-proxy.stonal.io/",
+            "matchHost": "https://aws-auth-proxy.stonal.io/",
             "username": "renovate",
             "encrypted": {
                 "password": "wcFMA/xDdHCJBTolAQ//Y8AsLBgedvbjux3Da2+Sd54xRA4UWxevB+Nayp/H7w6WqxL4WZ94Jeu4YV4ZNJc8U6mwjPD3x7a8lmFqblQJJZQP/0v4ktznSAflEYSlPnfBANQLEKk+wq463OoQUUmuw3tiM1H9B2XSvmkn8b9JD8EIpgjNqviSdYOQGuOAB/hOtDXbxQBC7kLs4KdIYN9Jhqsrn9G5EBzDHjAgO0jloEjiqwe77HjOclg0bClaqKJpDeJIOfH9qJN1VeGL6jaH7xOhEya/ZuJ+AhfnIHDmPJJvJJl3rpVvFZIC16fKKa+ofVokqUm7es+4Rgn8vo1Y8TBl4Fk1FVr0ahNzrvhTHMXnqrPe3+2hFwidj9a544Pfwn2LCM1cc6F/lh5X1Pf4BZncK3vmHSZJavSTyz4C8gJeH9Y/+RZw/iaF4EKHkB5W4UHe0/Q8YKf3vAeKnm+4JAgFlxYyOzt/Rx94udhFsCNV1rXZa26zJz8T/8tdfpuxRb8t0EzaanZlvZuyK894lppRdR56HacspH42Q3lGANqH8HnImmncCThbYtsupYBaJFEhkxaWVPObUFDZ3hlPUqQ6+rhI+jFLo6q0/W5QiSqBh8gJ0csCLNR3NipMuWI4kkVV9FRgFhFRIaLodSQJzqQwE8Y7vKVsvfpj4DRcgUMlVVStcEKyfXxldZIF+UHSYgFFme1mJNsYtmeYCqZxmVNB/abBseXAwTEzHiSYwV4kJP3yX8xI6wY4HhJpA1ESDR1CjUV5BkzE5cry1O4f3FfaI/CIl/pne+njY7/Bb5pzo786HHuszLCzfnTZwsFwJGs/"
