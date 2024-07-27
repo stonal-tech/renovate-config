@@ -22,7 +22,7 @@
                 "python"
             ],
             "registryUrls": [
-                "https://aws-auth-proxy.stonal.io/pypi/python/simple/",
+                "https://aws-auth-proxy.stonal.io/codeartifact/pypi/python/simple/",
                 "https://pypi.org/simple/"
             ]
         },
