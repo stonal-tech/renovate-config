@@ -10,6 +10,7 @@
             }
         }
     ],
+    "npmrc": "@lfn:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/",
     "packageRules": [
         {
             "matchDatasources": [
