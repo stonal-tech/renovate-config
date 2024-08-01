@@ -113,8 +113,8 @@
         "npm"
       ],
       "matchPackagePatterns": [
-        "^authts/react-oidc-context$",
-        "^authts/oidc-client-ts$"
+        "^react-oidc-context$",
+        "^oidc-client-ts$"
       ],
       "groupName": "authts-oidc"
     }
