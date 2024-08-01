@@ -18,7 +18,7 @@
             }
         }
     ],
-    "npmrc": "@lfn:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/",
+    "npmrc": "@lfn:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/\n@stonal-tech:registry=https://npm.pkg.github.com/",
     "packageRules": [
         {
             "matchDatasources": [
