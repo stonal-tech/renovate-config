@@ -1,102 +1,122 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        "github>stonal-tech/renovate-config//global",
-        "github>stonal-tech/renovate-config//js-npm"
-    ],
-    "packageRules": [
-        {
-            "description": "Automerge any patch",
-            "matchManagers": [
-                "npm"
-            ],
-            "matchUpdateTypes": [
-                "patch"
-            ],
-            "addLabels": [
-                "autoapprove"
-            ],
-            "prPriority": 2
-        },
-        {
-            "description": "Internal libs have a high priority",
-            "matchManagers": [
-                "npm"
-            ],
-            "matchPackagePatterns": [
-                "^@lfn/.*",
-                "^@stonal/.*"
-            ],
-            "prPriority": 5
-        },
-        {
-            "description": "Automerge any minor/patch update for any internal lib",
-            "matchManagers": [
-                "npm"
-            ],
-            "matchUpdateTypes": [
-                "minor",
-                "patch"
-            ],
-            "matchPackagePatterns": [
-                "^@lfn/.*",
-                "^@stonal/.*"
-            ],
-            "addLabels": [
-                "autoapprove"
-            ]
-        },
-        {
-            "description": "Automerging some majors",
-            "matchManagers": [
-              "npm"
-            ],
-            "matchUpdateTypes": [
-              "major",
-              "minor",
-              "patch"
-            ],
-            "matchPackagePatterns": [
-              "^eslint$"
-            ],
-            "addLabels": [
-              "autoapprove"
-            ]
-          },
-          {
-            "description": "Automerging some minors",
-            "matchManagers": [
-              "npm"
-            ],
-            "matchUpdateTypes": [
-              "minor",
-              "patch"
-            ],
-            "matchPackagePatterns": [
-                "^@mantime/",
-                "^@sentry/",
-                "^@tanstack/",
-                "^@typescript-eslint/",
-                "^@vitejs/",
-                "^tj-actions/",
-                "^i18next-.*",
-                "^react-router(-dom)?$",
-                "^mantine-datatable$",
-                "^@tabler/icons-react$",
-                "^(@types/)?node$",
-                "^eslint-plugin-unused-imports$",
-                "^express$",
-                "^i18next$",
-                "^react-i18next$",
-                "^oidc-client-ts$",
-                "^react-oidc-context$",
-                "^vite$",
-                "^winston$",
-                "^tsup$"
-            ],
-            "addLabels": [
-              "autoapprove"
-            ]
-          }
-    ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>stonal-tech/renovate-config//global",
+    "github>stonal-tech/renovate-config//js-npm"
+  ],
+  "packageRules": [
+    {
+      "description": "Automerge any patch",
+      "matchManagers": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "addLabels": [
+        "autoapprove"
+      ],
+      "prPriority": 2
+    },
+    {
+      "description": "Internal libs have a high priority",
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "^@lfn/.*",
+        "^@stonal/.*"
+      ],
+      "prPriority": 5
+    },
+    {
+      "description": "Automerge any minor/patch update for any internal lib",
+      "matchManagers": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchPackagePatterns": [
+        "^@lfn/.*",
+        "^@stonal/.*"
+      ],
+      "addLabels": [
+        "autoapprove"
+      ]
+    },
+    {
+      "description": "Automerging some majors",
+      "matchManagers": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "matchPackagePatterns": [
+        "^eslint$"
+      ],
+      "addLabels": [
+        "autoapprove"
+      ]
+    },
+    {
+      "description": "Automerging some minors",
+      "matchManagers": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchPackagePatterns": [
+        "^@mantime/",
+        "^@sentry/",
+        "^@tanstack/",
+        "^@typescript-eslint/",
+        "^@vitejs/",
+        "^tj-actions/",
+        "^i18next-.*",
+        "^react-router(-dom)?$",
+        "^mantine-datatable$",
+        "^@tabler/icons-react$",
+        "^(@types/)?node$",
+        "^eslint-plugin-unused-imports$",
+        "^express$",
+        "^i18next$",
+        "^react-i18next$",
+        "^oidc-client-ts$",
+        "^react-oidc-context$",
+        "^vite$",
+        "^winston$",
+        "^tsup$"
+      ],
+      "addLabels": [
+        "autoapprove"
+      ]
+    },
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "^@types/jasmine",
+        "^jasmine"
+      ],
+      "groupName": "jasmine"
+    },
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "^authts/react-oidc-context$",
+        "^authts/oidc-client-ts$"
+      ],
+      "groupName": "authts-oidc"
+    }
+  ]
 }
