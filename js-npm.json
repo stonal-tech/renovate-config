@@ -18,7 +18,7 @@
             }
         }
     ],
-    "npmrc": "@lfn:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/\n@stonal-tech:registry=https://npm.pkg.github.com/",
+    "npmrc": "@lfn:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/\n@stonal-tech:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/",
     "packageRules": [
         {
             "matchDatasources": [
@@ -26,18 +26,20 @@
             ],
             "matchPackageNames": [
                 "^@lfn/.*",
-                "^@stonal/.*"
+                "^@stonal/.*",
+                "^@stonal-tech/.*"
             ],
             "registryUrls": [
                 "https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/"
             ]
         },
         {
+            "description": "Example use of github registry for @stonal-tech-gh packages",
             "matchDatasources": [
                 "npm"
             ],
             "matchPackagePatterns": [
-                "^@stonal-tech/.*"
+                "^@stonal-tech-gh/.*"
             ],
             "registryUrls": [
                 "https://npm.pkg.github.com/"
