@@ -44,16 +44,6 @@
             "registryUrls": [
                 "https://npm.pkg.github.com/"
             ]
-        },
-        {
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchPackagePatterns": [
-                "^@types/jasmine",
-                "^jasmine"
-            ],
-            "groupName": "jasmine"
         }
     ]
 }
