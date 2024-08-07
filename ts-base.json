@@ -92,7 +92,12 @@
         "^react-oidc-context$",
         "^vite$",
         "^winston$",
-        "^tsup$"
+        "^tsup$",
+        "^husky$",
+        "^typescript$",
+        "^angular-eslint-monorepo$",
+        "^jasmine$",
+        "^ts-jest$"
       ],
       "addLabels": [
         "autoapprove"
