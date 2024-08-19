@@ -7,15 +7,15 @@
         {
             "description": "Automerging all minors and patch",
             "matchManagers": [
-              "maven"
+                "maven"
             ],
             "matchUpdateTypes": [
-              "minor",
-              "patch"
+                "minor",
+                "patch"
             ],
             "addLabels": [
-              "autoapprove"
+                "autoapprove"
             ]
-          }
+        }
     ]
 }
