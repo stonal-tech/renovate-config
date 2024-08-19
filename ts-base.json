@@ -84,7 +84,7 @@
         "^mantine-datatable$",
         "^@tabler/icons-react$",
         "^(@types/)?node$",
-        "^eslint-plugin-unused-imports$",
+        "^eslint-plugin-.*",
         "^express$",
         "^i18next$",
         "^react-i18next$",
