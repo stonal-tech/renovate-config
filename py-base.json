@@ -57,18 +57,12 @@
             "matchDatasources": [
                 "pypi"
             ],
-            "__matchUpdateTypes": [
-                "major",
-                "minor",
-                "patch"
-            ],
             "matchDepNames": [
                 "lib-mq-aws",
                 "lib-ai-mq-handler-py"
             ],
             "description": "lib-mq-aws and lib-ai-mq-handler-py need to create a new release when updated",
             "addLabels": [
-                "jira-issue",
                 "autorelease"
             ]
         },
