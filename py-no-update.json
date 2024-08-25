@@ -9,7 +9,7 @@
                 "poetry",
                 "dockerfile"
             ],
-            "allowedVersions": "<=3.10.12"
+            "allowedVersions": "<3.11"
         }
     ]
 }
