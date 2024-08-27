@@ -1,0 +1,7 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Github actions job",
+    "extends": [
+        "github>stonal-tech/renovate-config//global"
+    ]
+}
