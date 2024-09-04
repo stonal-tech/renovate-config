@@ -1,0 +1,25 @@
+name: Convert Drawio to PNG
+
+on:
+  push:
+
+jobs:
+  ci:
+    runs-on: stonal-ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.1.7
+        with:
+          token: ${{ secrets.GH_STONALBOT_PAT_REPO_ACCESS }}
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.1
+        with:
+          python-version: '3.12'
+      - name: Show dependencies
+        run: python scripts/show_deps.py
+
+      - uses: EndBug/add-and-commit@v9.1.4
+        if: ${{ github.ref != 'refs/heads/main' && github.actor != 'github-actions[bot]' }}
+        with:
+          default_author: github_actions
