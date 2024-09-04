@@ -5,6 +5,7 @@
             "hostType": "npm",
             "matchHost": "https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/",
             "username": "renovate",
+            "password": "{{ secrets.AWS_CA_PASSWORD }}",
             "encrypted": {
                 "password": "wcFMA/xDdHCJBTolAQ//Y8AsLBgedvbjux3Da2+Sd54xRA4UWxevB+Nayp/H7w6WqxL4WZ94Jeu4YV4ZNJc8U6mwjPD3x7a8lmFqblQJJZQP/0v4ktznSAflEYSlPnfBANQLEKk+wq463OoQUUmuw3tiM1H9B2XSvmkn8b9JD8EIpgjNqviSdYOQGuOAB/hOtDXbxQBC7kLs4KdIYN9Jhqsrn9G5EBzDHjAgO0jloEjiqwe77HjOclg0bClaqKJpDeJIOfH9qJN1VeGL6jaH7xOhEya/ZuJ+AhfnIHDmPJJvJJl3rpVvFZIC16fKKa+ofVokqUm7es+4Rgn8vo1Y8TBl4Fk1FVr0ahNzrvhTHMXnqrPe3+2hFwidj9a544Pfwn2LCM1cc6F/lh5X1Pf4BZncK3vmHSZJavSTyz4C8gJeH9Y/+RZw/iaF4EKHkB5W4UHe0/Q8YKf3vAeKnm+4JAgFlxYyOzt/Rx94udhFsCNV1rXZa26zJz8T/8tdfpuxRb8t0EzaanZlvZuyK894lppRdR56HacspH42Q3lGANqH8HnImmncCThbYtsupYBaJFEhkxaWVPObUFDZ3hlPUqQ6+rhI+jFLo6q0/W5QiSqBh8gJ0csCLNR3NipMuWI4kkVV9FRgFhFRIaLodSQJzqQwE8Y7vKVsvfpj4DRcgUMlVVStcEKyfXxldZIF+UHSYgFFme1mJNsYtmeYCqZxmVNB/abBseXAwTEzHiSYwV4kJP3yX8xI6wY4HhJpA1ESDR1CjUV5BkzE5cry1O4f3FfaI/CIl/pne+njY7/Bb5pzo786HHuszLCzfnTZwsFwJGs/"
             }
@@ -13,9 +14,7 @@
             "hostType": "npm",
             "matchHost": "https://npm.pkg.github.com/",
             "username": "stonalbot",
-            "encrypted": {
-                "password": "wcFMA/xDdHCJBTolAQ//XOPcoxBnySrl5dafpGTQrqsSv1q+VHG6HtJLmpXo4bAxiImKKgTxXxlOqOEqEuW2MgpSPtVSb4Tpva/V/v7wGvZIIi5nkNsQQcQYEWMsFsmECOrioVCZLTcztywmtaCAkiG7kYUL5tAWLOSByyX9qBsYH7NMS8ht15JbkzLUx44ttz4n62ph1e5sAQxzP4YCcL5iq7HbETk6ZYPM6Lze14J9KE3do4p2X7xeZGBa87T1+CTYhCh5FxWUiV4kesrurucRBuxm4tb6h44HudCsWwvd4MpPwgihDhMPTHNTlmd/I1UZS6CszZjWFQggzmKKG2pdW39UnMKhGl6ZPbph+9BTE3GxDSKHHPda6JHRtt7afkmUE+og091yWeaUn1yS7cCf1iEP+Htl2hzqGHL+XHbLOWrVicKZTSTnxxaerMB14AiZxLu9P5+f210SB6G7F25qY4sYmfqJRJ9Z/o0ozfA5I8Ip4SLuKc+hvkWXFfgk+L22ub7YvzVMvXTYhaXpnjfbhiT1qx84s84l2KUWINJaC+umsIWkSz0kNlCptSSRgniPGTfsQUmvBYxQj4PHprP0+63bwQX4JeybeOQIgP0YYF5NKCVEHwW+3fKqUmyQ/K96JdjVtA54UOwn1IeUtA9ehx2/r1um0Ea/NRuOZLvRIDP49sCaj9vxMwqiyKvSegEQH0BkJTifSrRVuamQ+kDhG/Mfed/eb/oqk0t4K5WjlhVsgfgCIyz+qr8edcrElT+rBIbdAm/HMVOkxY410M9rwEE7X+XYM5s8vtHhj91aDNa5k9xaIm5OFbbmZRx2qh10Ngi6DYF/K6yiq7UpEgIIjinKoNoL1hsg"
-            }
+            "password": "{{ secrets.GITHUB_TOKEN }}"
         }
     ],
     "npmrc": "@lfn:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/\n@stonal-tech:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/",
