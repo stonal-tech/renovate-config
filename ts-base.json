@@ -84,6 +84,7 @@
         "^mantine-datatable$",
         "^@tabler/icons-react$",
         "^(@types/)?node$",
+        "^(@types/)?google.maps$",
         "^eslint-plugin-.*",
         "^express$",
         "^i18next$",
