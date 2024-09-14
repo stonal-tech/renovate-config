@@ -78,6 +78,7 @@
         "^@tanstack/",
         "^@typescript-eslint/",
         "^@vitejs/",
+        "@aws-sdk/client-s3",
         "^tj-actions/",
         "^i18next-.*",
         "^react-router(-dom)?$",
