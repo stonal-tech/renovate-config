@@ -110,8 +110,9 @@
         "npm"
       ],
       "matchPackagePatterns": [
-        "^@types/jasmine",
-        "^jasmine"
+        "^@types/jasmine$",
+        "^jasmine-core$",
+        "^karma-jasmine$"
       ],
       "groupName": "jasmine"
     },
