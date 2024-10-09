@@ -99,7 +99,8 @@
         "^typescript$",
         "^angular-eslint-monorepo$",
         "^jasmine$",
-        "^ts-jest$"
+        "^ts-jest$",
+        "^yarn$"
       ],
       "addLabels": [
         "autoapprove"
