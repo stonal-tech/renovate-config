@@ -3,6 +3,10 @@ Documentation is [on notion](https://www.notion.so/Renovate-f455c421fc084ab38bf3
 
 ```mermaid
 graph TD;
+py-no-update("py-no-update") --> action("action")
+py-no-update("py-no-update") --> job("job")
+py-no-update("py-no-update") --> misc("misc")
+py-no-update("py-no-update") --> py-base("py-base")
 docker-images("docker-images") --> global("global")
 github-actions("github-actions") --> global("global")
 config:base("config:base") --> global("global")
@@ -14,8 +18,6 @@ js-cdn-builds("js-cdn-builds") --> php-base("php-base")
 js-cdn-builds("js-cdn-builds") --> ts-front("ts-front")
 js-cdn-builds("js-cdn-builds") --> unknown("unknown")
 js-npm("js-npm") --> ts-base("ts-base")
-py-no-update("py-no-update") --> misc("misc")
-py-no-update("py-no-update") --> py-base("py-base")
 shell("shell") --> tooling("tooling")
 global("global") --> action("action")
 global("global") --> config("config")
