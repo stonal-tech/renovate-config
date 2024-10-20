@@ -17,7 +17,7 @@
             "password": "{{ secrets.GITHUB_TOKEN }}"
         }
     ],
-    "npmrc": "@lfn:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/\n@stonal-tech:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/",
+    "npmrc": "@lfn:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/\n@stonal:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/\n@stonal-tech:registry=https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/",
     "packageRules": [
         {
             "matchDatasources": [
