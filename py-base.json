@@ -86,7 +86,9 @@
             "matchDepNames": [
                 "boto3"
             ],
-            "minimumReleaseAge": "3 days"
+            "schedule": [
+                "every weekend"
+            ]
         },
         {
             "description": "auto-merge some pre-commit updates",
