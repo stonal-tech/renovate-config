@@ -1,4 +1,4 @@
-name: Convert Drawio to PNG
+name: Rendering dependencies as a graph
 
 on:
   push:
