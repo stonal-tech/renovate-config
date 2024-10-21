@@ -47,23 +47,6 @@
       ]
     },
     {
-      "description": "Automerging some majors",
-      "matchManagers": [
-        "npm"
-      ],
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch"
-      ],
-      "matchPackagePatterns": [
-        "^eslint$"
-      ],
-      "addLabels": [
-        "autoapprove"
-      ]
-    },
-    {
       "description": "Automerging some minors",
       "matchManagers": [
         "npm"
@@ -100,7 +83,8 @@
         "^angular-eslint-monorepo$",
         "^jasmine$",
         "^ts-jest$",
-        "^yarn$"
+        "^yarn$",
+        "^eslint$"
       ],
       "addLabels": [
         "autoapprove"
