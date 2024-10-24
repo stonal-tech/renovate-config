@@ -110,6 +110,15 @@
         "^oidc-client-ts$"
       ],
       "groupName": "authts-oidc"
+    },
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "^@ionic/react(-router)?$"
+      ],
+      "groupName": "ionic-react"
     }
   ]
 }
