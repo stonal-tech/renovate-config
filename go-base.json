@@ -32,7 +32,7 @@
             "addLabels": [
                 "autoapprove"
             ],
-            "minimumReleaseAge": "10 days",
+            "minimumReleaseAge": "30 days",
             "prPriority": 3
         },
         {
