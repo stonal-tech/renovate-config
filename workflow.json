@@ -9,7 +9,7 @@
             "matchManagers": [
                 "github-actions"
             ],
-            "matchPackagePatterns": [
+            "matchPackageNames": [
                 "^stonal-tech/action-.*"
             ],
             "addLabels": [
@@ -24,7 +24,7 @@
                 "minor",
                 "patch"
             ],
-            "matchPackagePatterns": [
+            "matchPackageNames": [
                 "^stonal-tech/action-.*"
             ],
             "addLabels": [

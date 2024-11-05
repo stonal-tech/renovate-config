@@ -23,7 +23,7 @@
       "matchManagers": [
         "npm"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^@lfn/.*",
         "^@stonal/.*"
       ],
@@ -38,7 +38,7 @@
         "minor",
         "patch"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^@lfn/.*",
         "^@stonal/.*"
       ],
@@ -55,7 +55,7 @@
         "minor",
         "patch"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^@mantime/",
         "^@sentry/",
         "^@tanstack/",
@@ -94,7 +94,7 @@
       "matchDatasources": [
         "npm"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^@types/jasmine$",
         "^jasmine-core$",
         "^karma-jasmine$"
@@ -105,7 +105,7 @@
       "matchDatasources": [
         "npm"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^react-oidc-context$",
         "^oidc-client-ts$"
       ],
@@ -115,7 +115,7 @@
       "matchDatasources": [
         "npm"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^@ionic/react(-router)?$"
       ],
       "groupName": "ionic-react"

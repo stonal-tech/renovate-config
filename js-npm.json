@@ -37,7 +37,7 @@
             "matchDatasources": [
                 "npm"
             ],
-            "matchPackagePatterns": [
+            "matchPackageNames": [
                 "^@stonal-tech-gh/.*"
             ],
             "registryUrls": [

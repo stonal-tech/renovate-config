@@ -23,7 +23,7 @@
       "matchManagers": [
         "maven"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^com\\.stonal.*$",
         "^com\\.(la)?foncierenumerique.*$"
       ],
@@ -38,7 +38,7 @@
         "minor",
         "patch"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^com\\.stonal.*$",
         "^io\\.stonal.*$",
         "^com\\.(la)?foncierenumerique.*$"
@@ -55,7 +55,7 @@
       "matchUpdateTypes": [
         "patch"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^com\\.stonal.*$",
         "^io\\.stonal.*$",
         "^com\\.(la)?foncierenumerique.*$"
@@ -86,7 +86,7 @@
         "minor",
         "patch"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^com\\.google\\.guava:",
         "^org\\.testcontainers:",
         "^org\\.mock-server:",
@@ -124,21 +124,21 @@
     },
     {
       "description": "Avro: Keep old version (until kafka is removed)",
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "org\\.apache\\.avro:avro-maven-plugin"
       ],
       "allowedVersions": "<1.9"
     },
     {
       "description": "Kafka/Avro: Keep old version (and drop it once kafka is removed)",
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "io\\.confluent:kafka-avro-serializer"
       ],
       "allowedVersions": "<=3.3.1"
     },
     {
       "description": "Avro deps are broken",
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "io\\.confluent:kafka-avro-serializer"
       ],
       "labels": [
@@ -148,14 +148,14 @@
     {
       "groupName": "slf4j",
       "description": "Grouping all SLF4J deps / https://teams.microsoft.com/l/message/19:f81f757045044e7790a2fe4f8e36bdaa@thread.tacv2/1694159660533?tenantId=2cfaefd8-9855-4a51-a490-80bf898a8ac0&groupId=d7f9b385-5908-4f96-b0c5-716637c0acca&parentMessageId=1694159660533&teamName=R%26D&channelName=Tech&createdTime=1694159660533&allowXTenantAccess=false",
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^org\\.slf4j:.*"
       ]
     },
     {
       "groupName": "springframework",
       "description": "Grouping all springframework deps",
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^org\\.springframework\\..*"
       ]
     },
