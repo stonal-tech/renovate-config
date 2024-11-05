@@ -20,7 +20,7 @@
             "matchManagers": [
                 "regex"
             ],
-            "matchPackagePatterns": [
+            "matchPackageNames": [
                 "stonal-tech/lib-front-tracking-ts"
             ],
             "matchUpdateTypes": [
