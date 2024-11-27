@@ -26,7 +26,7 @@
       "matchPackageNames": [
         "com.stonal.**",
         "io.stonal.**",
-        "/com\\.(la)?foncierenumerique\\..*/"
+        "/^com\\.(la)?foncierenumerique\\..*/"
       ],
       "prPriority": 5
     },
@@ -42,7 +42,7 @@
       "matchPackageNames": [
         "com.stonal.**",
         "io.stonal.**",
-        "/com\\.(la)?foncierenumerique\\..*/"
+        "/^com\\.(la)?foncierenumerique\\..*/"
       ],
       "addLabels": [
         "autoapprove"
@@ -59,7 +59,7 @@
       "matchPackageNames": [
         "com.stonal.**",
         "io.stonal.**",
-        "/com\\.(la)?foncierenumerique\\..*/"
+        "/^com\\.(la)?foncierenumerique\\..*/"
       ],
       "addLabels": [
         "autorelease"
