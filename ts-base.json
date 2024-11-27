@@ -24,8 +24,8 @@
         "npm"
       ],
       "matchPackageNames": [
-        "^@lfn/.*",
-        "^@stonal/.*"
+        "@lfn/**",
+        "@stonal/**"
       ],
       "prPriority": 5
     },
@@ -39,8 +39,8 @@
         "patch"
       ],
       "matchPackageNames": [
-        "^@lfn/.*",
-        "^@stonal/.*"
+        "@lfn/**",
+        "@stonal/**"
       ],
       "addLabels": [
         "autoapprove"
@@ -56,35 +56,35 @@
         "patch"
       ],
       "matchPackageNames": [
-        "^@mantime/",
-        "^@sentry/",
-        "^@tanstack/",
-        "^@typescript-eslint/",
-        "^@vitejs/",
-        "@aws-sdk/client-s3",
-        "^tj-actions/",
-        "^i18next-.*",
-        "^react-router(-dom)?$",
-        "^mantine-datatable$",
-        "^@tabler/icons-react$",
-        "^(@types/)?node$",
-        "^(@types/)?google.maps$",
-        "^eslint-plugin-.*",
-        "^express$",
-        "^i18next$",
-        "^react-i18next$",
-        "^oidc-client-ts$",
-        "^react-oidc-context$",
-        "^vite$",
-        "^winston$",
-        "^tsup$",
-        "^husky$",
-        "^typescript$",
-        "^angular-eslint-monorepo$",
-        "^jasmine$",
-        "^ts-jest$",
-        "^yarn$",
-        "^eslint$"
+        "mantime/**",
+        "sentry/**",
+        "tanstack/**",
+        "typescript-eslint/**",
+        "vitejs/**",
+        "aws-sdk/client-s3",
+        "tj-actions/**",
+        "i18next-**",
+        "/^react-router(-dom)?$/",
+        "mantine-datatable",
+        "tabler/icons-react",
+        "/^(@types/)?node$/",
+        "/^(@types/)?google\\.maps$/",
+        "eslint-plugin-**",
+        "express",
+        "i18next",
+        "react-i18next",
+        "oidc-client-ts",
+        "react-oidc-context",
+        "vite",
+        "winston",
+        "tsup",
+        "husky",
+        "typescript",
+        "angular-eslint-monorepo",
+        "jasmine",
+        "ts-jest",
+        "yarn",
+        "eslint"
       ],
       "addLabels": [
         "autoapprove"
@@ -95,9 +95,9 @@
         "npm"
       ],
       "matchPackageNames": [
-        "^@types/jasmine$",
-        "^jasmine-core$",
-        "^karma-jasmine$"
+        "@types/jasmine",
+        "jasmine-core",
+        "karma-jasmine"
       ],
       "groupName": "jasmine"
     },
@@ -106,8 +106,8 @@
         "npm"
       ],
       "matchPackageNames": [
-        "^react-oidc-context$",
-        "^oidc-client-ts$"
+        "react-oidc-context",
+        "oidc-client-ts"
       ],
       "groupName": "authts-oidc"
     },
@@ -116,7 +116,7 @@
         "npm"
       ],
       "matchPackageNames": [
-        "^@ionic/react(-router)?$"
+        "/@ionic/react(-router)?/"
       ],
       "groupName": "ionic-react"
     }

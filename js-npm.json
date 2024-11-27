@@ -24,9 +24,9 @@
                 "npm"
             ],
             "matchPackageNames": [
-                "^@lfn/.*",
-                "^@stonal/.*",
-                "^@stonal-tech/.*"
+                "@lfn/**",
+                "@stonal/**",
+                "@stonal-tech/**"
             ],
             "registryUrls": [
                 "https://aws-auth-proxy.stonal.io/codeartifact/npm/avatar/"
@@ -38,7 +38,7 @@
                 "npm"
             ],
             "matchPackageNames": [
-                "^@stonal-tech-gh/.*"
+                "@stonal-tech-gh/**"
             ],
             "registryUrls": [
                 "https://npm.pkg.github.com/"

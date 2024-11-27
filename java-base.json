@@ -24,8 +24,9 @@
         "maven"
       ],
       "matchPackageNames": [
-        "^com\\.stonal.*$",
-        "^com\\.(la)?foncierenumerique.*$"
+        "com.stonal.**",
+        "io.stonal.**",
+        "/com\\.(la)?foncierenumerique\\..*/"
       ],
       "prPriority": 5
     },
@@ -39,9 +40,9 @@
         "patch"
       ],
       "matchPackageNames": [
-        "^com\\.stonal.*$",
-        "^io\\.stonal.*$",
-        "^com\\.(la)?foncierenumerique.*$"
+        "com.stonal.**",
+        "io.stonal.**",
+        "/com\\.(la)?foncierenumerique\\..*/"
       ],
       "addLabels": [
         "autoapprove"
@@ -56,9 +57,9 @@
         "patch"
       ],
       "matchPackageNames": [
-        "^com\\.stonal.*$",
-        "^io\\.stonal.*$",
-        "^com\\.(la)?foncierenumerique.*$"
+        "com.stonal.**",
+        "io.stonal.**",
+        "/com\\.(la)?foncierenumerique\\..*/"
       ],
       "addLabels": [
         "autorelease"
@@ -87,54 +88,40 @@
         "patch"
       ],
       "matchPackageNames": [
-        "^com\\.google\\.guava:",
-        "^org\\.testcontainers:",
-        "^org\\.mock-server:",
-        "^org\\.mockito:",
-        "^org\\.apache\\.poi:",
-        "^org\\.wiremock:",
-        "^ch\\.qos\\.logback:",
-        "^com\\.google\\.code\\.gson:",
-        "^com\\.tngtech\\.jgiven:",
-        "^commons-codec:",
-        "^commons-io:",
-        "^io\\.mockk:",
-        "^io\\.sentry:",
-        "^org\\.owasp:dependency-check-maven$",
-        "^com\\.github.dasniko:testcontainers-keycloak$",
-        "^net\\.lbruun•\\.springboot:preliquibase-spring-boot-starter$",
-        "^net\\.sourceforge\\.htmlunit:",
-        "^org\\.apache\\.commons:",
-        "^org\\.apache\\.cxf:",
-        "^org\\.apache.maven.plugins:",
-        "^org\\.apache\\.xmlgraphics:",
-        "^org\\.jetbrains\\.kotlin:",
-        "^org\\.junit\\.jupiter:",
-        "^org\\.jsoup:",
-        "^org\\.liquibase:",
-        "^org\\.owasp:",
-        "^org\\.slf4j:",
-        "^org\\.springframework\\.boot:",
-        "^org\\.springframework\\.cloud:",
-        "^software.amazon.awssdk:"
+        "com.google.guava:**",
+        "org.testcontainers:**",
+        "org.mock-server:**",
+        "org.mockito:**",
+        "org.apache.poi:**",
+        "org.wiremock:**",
+        "ch.qos.logback:**",
+        "com.google.code.gson:**",
+        "com.tngtech.jgiven:**",
+        "commons-codec:**",
+        "commons-io:**",
+        "io.mockk:**",
+        "io.sentry:**",
+        "net.sourceforge.htmlunit:**",
+        "org.apache.commons:**",
+        "org.apache.cxf:**",
+        "org.apache.maven.plugins:**",
+        "org.apache.xmlgraphics:**",
+        "org.jetbrains.kotlin:**",
+        "org.junit.jupiter:**",
+        "org.jsoup:**",
+        "org.liquibase:**",
+        "org.owasp:**",
+        "org.slf4j:**",
+        "org.springframework.boot:**",
+        "org.springframework.cloud:**",
+        "software.amazon.awssdk:**",
+        "org.owasp:dependency-check-maven$",
+        "com.github.dasniko:testcontainers-keycloak",
+        "net.lbruun.springboot:preliquibase-spring-boot-starter"
       ],
       "addLabels": [
         "autoapprove"
       ]
-    },
-    {
-      "description": "Avro: Keep old version (until kafka is removed)",
-      "matchPackageNames": [
-        "org\\.apache\\.avro:avro-maven-plugin"
-      ],
-      "allowedVersions": "<1.9"
-    },
-    {
-      "description": "Kafka/Avro: Keep old version (and drop it once kafka is removed)",
-      "matchPackageNames": [
-        "io\\.confluent:kafka-avro-serializer"
-      ],
-      "allowedVersions": "<=3.3.1"
     },
     {
       "description": "Avro deps are broken",
@@ -149,21 +136,21 @@
       "groupName": "slf4j",
       "description": "Grouping all SLF4J deps / https://teams.microsoft.com/l/message/19:f81f757045044e7790a2fe4f8e36bdaa@thread.tacv2/1694159660533?tenantId=2cfaefd8-9855-4a51-a490-80bf898a8ac0&groupId=d7f9b385-5908-4f96-b0c5-716637c0acca&parentMessageId=1694159660533&teamName=R%26D&channelName=Tech&createdTime=1694159660533&allowXTenantAccess=false",
       "matchPackageNames": [
-        "^org\\.slf4j:.*"
+        "org.slf4j.**"
       ]
     },
     {
       "groupName": "springframework",
       "description": "Grouping all springframework deps",
       "matchPackageNames": [
-        "^org\\.springframework\\..*"
+        "org.springframework.**"
       ]
     },
     {
       "description": "group keycloack updates",
       "groupName": "lib-keycloak",
       "matchDepNames": [
-        "^org\\.keycloak\\.:"
+        "org.keycloak.**"
       ],
       "matchManagers": [
         "maven"
