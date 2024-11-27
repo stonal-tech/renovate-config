@@ -30,14 +30,14 @@
         {
             "description": "Limit Microsoft .Net Core & Entity Framework Versions",
             "matchPackageNames": [
-                "Microsoft\\.EntityFrameworkCore.*",
-                "Microsoft\\.AspNetCore.*", 
-                "Microsoft\\.Extensions.*",
-                "Microsoft\\.Maui.*",
-                "System\\.Configuration\\.ConfigurationManager",
-                "mcr\\.microsoft\\.com/dotnet/aspnet",
-                "mcr\\.microsoft\\.com/dotnet/runtime",
-                "mcr\\.microsoft\\.com/dotnet/sdk"
+                "Microsoft.EntityFrameworkCore.*",
+                "Microsoft.AspNetCore.*", 
+                "Microsoft.Extensions.*",
+                "Microsoft.Maui.*",
+                "System.Configuration.ConfigurationManager",
+                "mcr.microsoft.com/dotnet/aspnet",
+                "mcr.microsoft.com/dotnet/runtime",
+                "mcr.microsoft.com/dotnet/sdk"
             ],
             "allowedVersions": "<9"
         }

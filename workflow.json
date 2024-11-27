@@ -10,7 +10,7 @@
                 "github-actions"
             ],
             "matchPackageNames": [
-                "^stonal-tech/action-.*"
+                "stonal-tech/action-**"
             ],
             "addLabels": [
                 "autorelease"
@@ -25,7 +25,7 @@
                 "patch"
             ],
             "matchPackageNames": [
-                "^stonal-tech/action-.*"
+                "stonal-tech/action-**"
             ],
             "addLabels": [
                 "autoapprove"

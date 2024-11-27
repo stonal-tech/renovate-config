@@ -27,14 +27,14 @@
                 "patch"
             ],
             "matchPackageNames": [
-                "^aws/aws-cli$",
-                "^awslabs/amazon-ecr-credential-helper$",
-                "^codacy/helm-ssm$",
-                "^eksctl-io/eksctl$",
-                "^helm/helm$",
-                "^mikefarah/yq$",
-                "^pypa/pip$",
-                "^python-poetry/poetry$"
+                "aws/aws-cli",
+                "awslabs/amazon-ecr-credential-helper",
+                "codacy/helm-ssm",
+                "eksctl-io/eksctl",
+                "helm/helm",
+                "mikefarah/yq",
+                "pypa/pip",
+                "python-poetry/poetry"
             ],
             "addLabels": [
                 "autoapprove"
