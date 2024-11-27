@@ -116,7 +116,7 @@
         "npm"
       ],
       "matchPackageNames": [
-        "/@ionic/react(-router)?/"
+        "/^@ionic/react(-router)?/"
       ],
       "groupName": "ionic-react"
     }
