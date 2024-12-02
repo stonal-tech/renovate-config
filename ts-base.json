@@ -125,7 +125,8 @@
         "npm"
       ],
       "matchPackageNames": [
-        "@angular/**"
+        "@angular/**",
+        "@angular-devkit/**"
       ],
       "groupName": "angular"
     }
