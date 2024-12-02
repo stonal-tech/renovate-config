@@ -3,8 +3,9 @@
     "regex": {
         "enabled": true
     },
-    "regexManagers": [
+    "customManagers": [
         {
+            "customType": "regex",
             "fileMatch": [
                 "(.*)\\.sh"
             ],
@@ -12,6 +13,20 @@
                 "#.*https:\\/\\/github\\.com\/(?<depName>[^\\/]+\\/[^\\/]+)\\/(?<sourceType>(releases|tags)+).*\n.*_VERSION=(?<currentValue>.*)"
             ],
             "datasourceTemplate": "github-{{{sourceType}}}"
+        }
+    ],
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "patch",
+                "minor"
+            ],
+            "matchPackageNames": [
+                "aws/aws-cli"
+            ],
+            "addLabels": [
+                "autoapprove"
+            ]
         }
     ]
 }
