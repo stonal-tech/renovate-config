@@ -3,14 +3,10 @@
     "packageRules": [
         {
             "matchDepNames": [
-                "^python$",
-                "^public\\.ecr\\.aws/docker/library/python$"
+                "python",
+                "public.ecr.aws/docker/library/python"
             ],
-            "matchManagers": [
-                "poetry",
-                "dockerfile"
-            ],
-            "allowedVersions": "<3.11"
+            "allowedVersions": "<3.12"
         }
     ]
 }
