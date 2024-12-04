@@ -143,6 +143,15 @@
                 "poetry"
             ],
             "separateMajorMinor": false
+        },
+        {
+            "description": "updating pip",
+            "matchDepNames": [
+                "pypa/pip"
+            ],
+            "addLabels": [
+                "autoapprove"
+            ]
         }
     ],
     "pre-commit": {
