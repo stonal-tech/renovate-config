@@ -150,12 +150,10 @@
       "groupName": "springframework",
       "description": "Grouping all springframework deps",
       "matchPackageNames": [
-        "org.springframework.cloud:spring-cloud-dependencies",
-        "org.springframework.boot:spring-boot-starter-parent"
+        "org.springframework.cloud:spring-cloud-dependencies"
       ],
       "matchUpdateTypes": [
-        "major",
-        "minor"
+        "major"
       ],
       "separateMajorMinor": false
     },
