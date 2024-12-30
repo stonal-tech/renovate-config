@@ -147,6 +147,17 @@
       ]
     },
     {
+      "groupName": "springframework",
+      "description": "Grouping all springframework deps",
+      "matchPackageNames": [
+        "org.springframework.cloud:spring-cloud-dependencies"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "separateMajorMinor": false
+    },
+    {
       "description": "group keycloack updates",
       "groupName": "lib-keycloak",
       "matchDepNames": [
