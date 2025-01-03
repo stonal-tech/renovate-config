@@ -85,7 +85,8 @@
         "ts-jest",
         "yarn",
         "eslint",
-        "@ngrx/**"
+        "@ngrx/**",
+        "tslib"
       ],
       "addLabels": [
         "autoapprove"
