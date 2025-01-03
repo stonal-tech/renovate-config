@@ -64,7 +64,7 @@
                 "go"
             ],
             "matchDepPatterns": [
-                "^github.com/uptrace/bun/?.*"
+                "^github.com/uptrace/bun(/.*)?$"
             ],
             "groupName": "uptrace-bun"
         }
