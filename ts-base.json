@@ -84,7 +84,8 @@
         "jasmine",
         "ts-jest",
         "yarn",
-        "eslint"
+        "eslint",
+        "@ngrx/**"
       ],
       "addLabels": [
         "autoapprove"
