@@ -57,6 +57,16 @@
                 "^github.com/stonal-tech/.*"
             ],
             "prPriority": 5
+        },
+        {
+            "description": "Group all uptrace/bun dependencies",
+            "matchDatasources": [
+                "go"
+            ],
+            "matchDepPatterns": [
+                "^github.com/uptrace/bun(/.*)?$"
+            ],
+            "groupName": "uptrace-bun"
         }
     ]
 }
